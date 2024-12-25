@@ -1,0 +1,126 @@
+.bnslide {
+    position: relative;
+    &__overlay {
+        &__play {
+            position: relative;
+            z-index: 99;
+        }
+        &::after {
+            @include bg-gradient(top, color('black'), color('transparent')  20%);
+            @include pos-absolute-wh(0,0,0,0,'');
+            z-index: 9;
+        }
+    }
+    &.owl-theme {
+        .owl-nav {
+            margin: 0;
+            z-index: 99;
+            .owl-prev, .owl-next {
+                background-color: rgba(color('black'), 0.3);
+                color: color('primary');
+                outline: none;
+                @include pos-absolute(50%,20px);
+                margin: 0;
+                font-size: fsize(3);
+                line-height: 50px;
+                @include transform(translateY(-50%));
+                &:hover, &:focus {
+                    background-color: rgba(color('black'), 0.5);
+                }
+                i {
+                    @include circle(50px);
+                }
+            }
+            .owl-next {
+                right: 20px;
+                left: initial;
+            }
+        }
+        .owl-dots {
+            position: absolute;
+            bottom: 80px;
+            @include flex-box(center);
+            width: 100%;
+            z-index: 99;
+            .owl-dot {
+                outline: none;
+                span {
+                    width: 12px;
+                    height: 12px;
+                    background-color: color('whitegray');
+                }
+                &.active, &:hover{
+                    span {
+                        background-color: color('primary');
+                    }
+                } 
+            }
+        }
+    }
+}
+#book__movie {
+    position: relative;
+    .bkmovie {
+        background-color: color('white');
+        display: block;
+        height: 80px;
+        width: 100%;
+        padding: spacing(1.5);
+        @include pos-absolute(initial, 50%);
+        bottom: -40px;
+        @include transform(translateX(-50%));
+        @include bd-radius(5px);
+        @include box-shawdow(0 0 10px rgba(color('black'), 0.3));
+        z-index: 2;
+        &__item {
+            display: flex;
+            align-items: center;
+            height: 50px;
+            border-right: 1px solid color('whitegray');
+            .dropdown {
+                &__selected {
+                    position: relative;
+                    width: 100%;
+                    text-transform: capitalize;
+                    &::before {
+                        @include pos-absolute(4px,initial, '');
+                        right: 0;
+                        width: 20px;
+                        height: 20px;
+                        background-image: url(/images/icons/dropdown-icon.png);
+                        background-repeat: no-repeat;
+                    }
+                }
+                &__menu {
+                    text-transform: capitalize;
+                    color: color('darkgrey');
+                }
+            }
+            .btn-default {
+                background-color: color('blackgray');
+                &.active {
+                    background-color: color('primary');
+                }
+            }
+        }
+        &__date {
+            line-height: 20px;
+            p:nth-child(2) {
+                color: color('lightgray');
+                font-size: $font-size-small;
+                padding-top: spacing(0.2);
+            }
+        }
+        &__datepick {
+            .dropdown__selected {
+                p:first-child {
+                    display: none;
+                }
+            }
+        }
+        &__book {
+            border-right: none;
+            justify-content: flex-end;
+        }
+    }
+}

@@ -1,0 +1,112 @@
+.btn-default {
+    @include buton;
+}
+
+.btn-play {
+    a {
+        color: color('white');
+        border: 2px solid color('white');
+        display: inline-block;
+        font-size: $h4-font-size;
+        @include circle(72px);
+        @include box-shawdow(0px 0px 36px 3px color('black') inset);
+        cursor: pointer;
+
+        &:hover {
+            @include transform(scale(0.95));
+        }
+    }
+}
+.btn-age {
+    background-color: color('primary');
+    color: color('white');
+    display: inline-block;
+    font-size: $font-size-small;                
+    width: 33px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    margin-right: spacing(0.5);
+    @include bd-radius(4px);
+}
+.btn-detail {
+    background-color: color('transparent');
+    color: color('primary');
+    font-size: $font-size-small;   
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    &:hover {
+        text-decoration: underline;
+    }
+
+}
+
+.progress {
+    width: 130px;
+    height: 130px;
+    line-height: 130px;
+    margin: 0 auto;
+    position: relative;
+
+    &::after {
+        @include pos-absolute(0, 0, '');
+        width: 100%;
+        height: 100%;
+        border: 8px solid rgba(color('black'), 0.4);
+        @include bd-radius(50%);
+
+    }
+
+    >span {
+        position: absolute;
+        top: 0;
+        width: 50%;
+        height: 100%;
+        overflow: hidden;
+        z-index: 1;
+    }
+
+    &-bar {
+        width: 100%;
+        height: 100%;
+        background: none;
+        border: 8px solid color('green');
+        position: absolute;
+        top: 0;
+        border-left: 0;
+        border-top-right-radius: 80px;
+        border-bottom-right-radius: 80px;
+        transform-origin: center left;
+    }
+    
+    &-left {
+        left: 0;
+
+        .progress-bar {
+            left: 100%;
+            @include transform(rotate(90deg));
+        }
+    }
+
+    &-right {
+        right: 0;
+
+        .progress-bar {
+            right: 0;
+            @include transform(rotate(0deg));
+        }
+    }
+
+    &-value {
+        background-color: rgba(color('black'), 0.4);
+        color: color('white');
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        font-size: $font-size-larger*1.3;
+        line-height: 130px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "Position": [
+        {
+            "ID_Position": 1,
+            "PositionName": "A"
+        },
+        {
+            "ID_Position": 2,
+            "PositionName": "B"
+        },
+        {
+            "ID_Position": 3,
+            "PositionName": "C"
+        },
+        {
+            "ID_Position": 4,
+            "PositionName": "D"
+        },
+        {
+            "ID_Position": 5,
+            "PositionName": "E"
+        },
+        {
+            "ID_Position": 6,
+            "PositionName": "F"
+        },
+        {
+            "ID_Position": 7,
+            "PositionName": "G"
+        },
+        {
+            "ID_Position": 8,
+            "PositionName": "H"
+        },
+        {
+            "ID_Position": 9,
+            "PositionName": "J"
+        },
+        {
+            "ID_Position": 10,
+            "PositionName": "K"
+        },
+        {
+            "ID_Position": 11,
+            "PositionName": "L"
+        }
+    ]
+}

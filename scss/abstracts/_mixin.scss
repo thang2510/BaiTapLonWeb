@@ -1,0 +1,130 @@
+@mixin list-default {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+@mixin seatroom-type($color) {
+    i {
+        color: $color !important;
+        &.border-square{
+            &::before {
+                border-color: $color !important;
+            }
+        }
+    }    
+}
+@mixin flex-box($jus, $align: null) {
+    display: flex;
+    justify-content: $jus;
+    @if ($align != null) {
+        align-items: $align;
+    }
+}
+@mixin pos-absolute($top, $left, $content: null) {
+    @if ($content != null) {
+        content: $content;
+    }
+    position: absolute;
+    top: $top;
+    left: $left;
+}
+@mixin pos-absolute-wh($top, $left, $bottom, $right, $content: null) {
+    @if ($content != null) {
+        content: $content;
+    }
+    position: absolute;
+    top: $top;
+    left: $left;
+    bottom: $bottom;
+    right: $right;
+}
+@mixin bg-gradient($pos, $color1, $color2) {
+    background-image: linear-gradient(to $pos, $color1, $color2);
+}
+@mixin bd-radius($width) {
+    border-radius: $width;
+    -webkit-border-radius: $width;
+    -moz-border-radius: $width;
+    -ms-border-radius: $width;
+    -o-border-radius: $width;
+}
+@mixin circle($value) {
+    width: $value;
+    height: $value;
+    line-height: $value;
+    text-align: center;
+    @include bd-radius($value);
+}
+@mixin box-shawdow($value) {
+    box-shadow: $value;
+}
+@mixin transition-all($prop: all, $time: 0.4s, $effect: ease-in-out) {
+    transition: $prop $time $effect ;
+    -webkit-transition: $prop $time $effect ;
+    -moz-transition: $prop $time $effect ;
+    -ms-transition: $prop $time $effect ;
+    -o-transition: $prop $time $effect ;
+}
+@mixin transform($value) {
+    transform: $value;
+    -webkit-transform: $value;
+    -moz-transform: $value;
+    -ms-transform: $value;
+    -o-transform: $value;
+}
+@mixin animation($value) {
+    animation: $value;
+    -webkit-animation: $value;
+}
+@mixin buton($bg: color('primary'), $color: color('white'), $bd-radius: 4px, $padding: spacing(1, 1.5), $text-trans: uppercase, $outline: none, $border: none) {
+    background-color: $bg;
+    color: $color;
+    @include bd-radius($bd-radius);
+    padding: $padding;
+    outline: $color;
+    border: $color;
+    text-transform: $text-trans;
+    @include transition-all;
+}
+@mixin filter($value) {
+    filter: $value;
+    -webkit-filter: $value;
+}
+@mixin animation-transform($effectName, $value1, $value2) {
+    @keyframes #{$effectName} {
+        0% {
+            @include transform($value1);
+        }
+        100% {
+            @include transform($value2);
+        }
+    }
+}
+@mixin animation-opacity($effectName, $value1, $value2) {
+    @keyframes #{$effectName} {
+        0% {
+            opacity: $value1;
+        }
+        100% {            
+            opacity: $value2;
+        }
+    }
+}
+@mixin animation-rotate3d($effectName, $value1, $value2, $value3, $value4) {
+    @keyframes #{$effectName} {        
+        from {
+            opacity:1;
+            @include transform($value1);
+        }
+        10%,30%,50%,70%,90% {
+            @include transform($value2);
+        }
+        20%,40%,60%,80%{
+            @include transform($value3);
+        }
+        to {
+            opacity:0;
+            @include transform($value4);
+        }
+    }
+}

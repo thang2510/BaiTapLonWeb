@@ -1,0 +1,92 @@
+#section-main {
+  background-color: color('darkblue');
+}
+
+#trailer {
+  position: relative;
+
+  .trailer {
+    &__bg {
+      background-color: color('darkblue');
+      background-image: url(../images/movie/sac-dep-doi-tra-false-beauty-c16-15814133327192.jpg);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      @include filter(blur(15px));
+      @include pos-absolute(0, 0);
+      width: 100%;
+      height: 100%;
+
+      &::before {
+        @include bg-gradient(top, color('darkblue'), color('transparent') 100%);
+        @include pos-absolute(0, 0, '');
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    &__infor {
+      @include pos-absolute(50%, 0);
+      right: 0;
+      @include transform(translateY(-50%));
+
+      .image {
+        position: relative;
+
+        .btn-play {
+          @include pos-absolute(50%, 50%);
+          @include transform(translate(-50%, -50%));
+        }
+      }
+    }
+
+    &__content,
+    &__rating {
+      @include pos-absolute(50%, 0);
+      @include transform(translateY(-50%));
+    }
+
+    &__content {
+      color: color("whitegray");
+
+      &__date {
+        font-size: $font-size-base;
+      }
+
+      &__title {
+        font-size: 2 * $font-size-small;
+        line-height: 35px;
+        margin-top: spacing(0.5);
+        margin-bottom: spacing(0.5);
+
+        .film__age {
+          font-size: 1.33 * $font-size-small;
+          display: inline-block;
+          color: color("white");
+          line-height: 24px;
+          background-color: color("primary");
+          padding: 0 spacing(0.5);
+          @include bd-radius(4px);
+          min-width: 33px;
+        }
+      }
+    }
+
+    &__rating {
+      text-align: center;
+      right: 0;
+      left: initial;
+      color: color('white');
+
+      &__star {
+        margin-top: spacing(1);
+        margin-bottom: spacing(1);
+
+        img:last-child {
+          width: 25px;
+        }
+      }
+    }
+
+  }
+
+}

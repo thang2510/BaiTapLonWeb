@@ -1,0 +1,13 @@
+@function color($key: "primary") {
+    @return map-get($colors, $key);
+}
+
+@function spacing($x, $y: null) {
+    @if ($y == null) {
+        @return $x * $spacing;
+    }
+    @return $x * $spacing $y * $spacing;
+}
+@function fsize($value) {
+    @return $font-size-base * $value;
+}

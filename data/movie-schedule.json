@@ -1,0 +1,716 @@
+{
+    "Cinema": [
+        {
+            "ID_Cinema": 1,
+            "ID_Parent": 0,
+            "CinemaName": "CGV",
+            "CinemaLogo": "cgv.jpg",
+            "CinemaLink": "cgv"
+        },
+        {
+            "ID_Cinema": 2,
+            "ID_Parent": 1,
+            "CinemaName": "CGV Aeon Tân Phú",
+            "CinemaLogo": "cgv-general.jpg",
+            "CinemaLink": "cgv-aeon-tan-phu",
+            "CinemaLocation": "Lầu 3, Aeon Mall 30 Bờ Bao Tân Thắng, P. Sơn Kỳ, Quận Tân Phú"
+        },
+        {
+            "ID_Cinema": 3,
+            "ID_Parent": 1,
+            "CinemaName": "CGV Crescent Mall",
+            "CinemaLogo": "cgv-general.jpg",
+            "CinemaLink": "cgv-crescent-mall",
+            "CinemaLocation": "Lầu 5, Crescent Mall Đại lộ Nguyễn Văn Linh, Phú Mỹ Hưng, Quận 7"
+        },
+        {
+            "ID_Cinema": 4,
+            "ID_Parent": 1,
+            "CinemaName": "CGV Giga Mall Thủ Đức",
+            "CinemaLogo": "cgv-general.jpg",
+            "CinemaLink": "cgv-giga-mall-thu-duc",
+            "CinemaLocation": "Tầng 6 TTTM GIGAMALL, 240-242 Phạm Văn Đồng, P. Hiệp Bình Chánh, Q. Thủ Đức"
+        },
+        {
+            "ID_Cinema": 5,
+            "ID_Parent": 1,
+            "CinemaName": "CGV Hoàng Văn Thụ",
+            "CinemaLogo": "cgv-general.jpg",
+            "CinemaLink": "cgv-hoang-van-thu",
+            "CinemaLocation": "Tầng 1 và 2, Gala Center, số 415, Hoàng Văn Thụ, Phường 2, Quận Tân Bình"
+        },
+        {
+            "ID_Cinema": 6,
+            "ID_Parent": 1,
+            "CinemaName": "CGV Hùng Vương Plaza",
+            "CinemaLogo": "cgv-general.jpg",
+            "CinemaLink": "cgv-hung-vuong-plaza",
+            "CinemaLocation": "Tầng 7 | Hùng Vương Plaza 126 Hùng Vương, Quận 5"
+        },
+        {
+            "ID_Cinema": 7,
+            "ID_Parent": 1,
+            "CinemaName": "CGV IMC Trần Quang Khải",
+            "CinemaLogo": "cgv-general.jpg",
+            "CinemaLink": "cgv-imc-tran-quang-khai",
+            "CinemaLocation": "Tầng 2 & 3, Trung Tâm Văn Hóa Đa Năng, 62 Trần Quang Khải, P. Tân Định, Q. 1"
+        },
+        {
+            "ID_Cinema": 8,
+            "ID_Parent": 1,
+            "CinemaName": "CGV Lý Chính Thắng",
+            "CinemaLogo": "cgv-general.jpg",
+            "CinemaLink": "cgv-cgv-ly-chinh-thang",
+            "CinemaLocation": "Tầng 3, 83 Lý Chính Thắng, Phường 8, Q.3"
+        },
+        {
+            "ID_Cinema": 9,
+            "ID_Parent": 1,
+            "CinemaName": "CGV Pandora City",
+            "CinemaLogo": "cgv-general.jpg",
+            "CinemaLink": "cgv-pandora-city",
+            "CinemaLocation": "Lầu 3, Pandora City 1/1 Trường Chinh, Quận Tân Phú"
+        },
+        {
+            "ID_Cinema": 10,
+            "ID_Parent": 1,
+            "CinemaName": "CGV Pearl Plaza",
+            "CinemaLogo": "cgv-general.jpg",
+            "CinemaLink": "cgv-pearl-plaza",
+            "CinemaLocation": "Tầng 5, Pearl Plaza, 561A Điện Biên Phủ, P.25, Q.Bình Thạnh"
+        },
+        {
+            "ID_Cinema": 11,
+            "ID_Parent": 1,
+            "CinemaName": "CGV Saigonres Nguyễn Xí",
+            "CinemaLogo": "cgv-general.jpg",
+            "CinemaLink": "cgv-saigonres-nguyen-xi",
+            "CinemaLocation": "Tầng 4-5, Saigonres Plaza, 79/81 Nguyễn Xí, P 26, Q Bình Thạnh"
+        },
+        {
+            "ID_Cinema": 12,
+            "ID_Parent": 1,
+            "CinemaName": "CGV Satra Củ Chi",
+            "CinemaLogo": "cgv-general.jpg",
+            "CinemaLink": "cgv-satra-cu-chi",
+            "CinemaLocation": "Tầng 3, TTTM Satra Củ Chi, Số 1239, Tỉnh Lộ 8, Ấp Thạnh An, Xã Trung An, Huyện Củ Chi"
+        },
+        {
+            "ID_Cinema": 13,
+            "ID_Parent": 1,
+            "CinemaName": "CGV Sư Vạn Hạnh",
+            "CinemaLogo": "cgv-general.jpg",
+            "CinemaLink": "cgv-su-van-hanh",
+            "CinemaLocation": "Tầng 6, Vạn Hạnh Mall, 11 Sư Vạn Hạnh, Phường 12, Quận 10"
+        },
+        {
+            "ID_Cinema": 14,
+            "ID_Parent": 1,
+            "CinemaName": "CGV Thảo Điền Pearl",
+            "CinemaLogo": "cgv-general.jpg",
+            "CinemaLink": "cgv-thao-dien-pearl",
+            "CinemaLocation": "Tầng 2, Thảo Điền Mall, 12 Quốc Hương, Phường Thảo Điền, Quận 2"
+        },
+        {
+            "ID_Cinema": 15,
+            "ID_Parent": 1,
+            "CinemaName": "CGV Trường Sơn (CGV CT Plaza)",
+            "CinemaLogo": "cgv-general.jpg",
+            "CinemaLink": "cgv-truong-son",
+            "CinemaLocation": "Tầng 10, Tòa nhà Vietjet Plaza, 60A Trường Sơn, P.2, Q. Tân Bình"
+        },
+        {
+            "ID_Cinema": 16,
+            "ID_Parent": 1,
+            "CinemaName": "CGV Vincom Center Landmark 81",
+            "CinemaLogo": "cgv-general.jpg",
+            "CinemaLink": "cgv-vincom-center-landmark-81",
+            "CinemaLocation": "Tầng B1 , TTTM Vincom Center Landmark 81, 772 Điện Biên Phủ, P.22, Q. Bình Thạnh"
+        },
+        {
+            "ID_Cinema": 17,
+            "ID_Parent": 1,
+            "CinemaName": "CGV Vincom Gò Vấp",
+            "CinemaLogo": "cgv-general.jpg",
+            "CinemaLink": "cgv-vincom-go-vap",
+            "CinemaLocation": "Tầng 5 TTTM Vincom Plaza Gò Vấp, 12 Phan Văn Trị, Phường 7, Quận Gò Vấp"
+        },
+        {
+            "ID_Cinema": 18,
+            "ID_Parent": 1,
+            "CinemaName": "CGV Vincom Thủ Đức",
+            "CinemaLogo": "cgv-general.jpg",
+            "CinemaLink": "cgv-vincom-thu-duc",
+            "CinemaLocation": "Tầng 5, TTTM Vincom Thủ Đức, 216 Võ Văn Ngân, Phường Bình Thọ, Quận Thủ Đức"
+        },
+        {
+            "ID_Cinema": 19,
+            "ID_Parent": 1,
+            "CinemaName": "CGV Vincom Đồng Khởi",
+            "CinemaLogo": "cgv-general.jpg",
+            "CinemaLink": "cgv-vincom-dong-khoi",
+            "CinemaLocation": "Tầng 3, TTTM Vincom Center Đồng Khởi, 72 Lê Thánh Tôn & 45A Lý Tự Trọng, Quận 1"
+        },
+        {
+            "ID_Cinema": 20,
+            "ID_Parent": 1,
+            "CinemaName": "CGV Vivo City",
+            "CinemaLogo": "cgv-general.jpg",
+            "CinemaLink": "cgv-vivo-city",
+            "CinemaLocation": "Lầu 5, Trung tâm thương mại SC VivoCity - 1058 Nguyễn Văn Linh, Quận 7"
+        },
+        {
+            "ID_Cinema": 21,
+            "ID_Parent": 45,
+            "CinemaName": "CineStar Hai Bà Trưng",
+            "CinemaLogo": "cinestar-general.jpg",
+            "CinemaLink": "cinestar-hai-ba-trung",
+            "CinemaLocation": "135 Hai Bà Trưng, Bến Nghé, Q.1"
+        },
+        {
+            "ID_Cinema": 22,
+            "ID_Parent": 45,
+            "CinemaName": "CineStar Quốc Thanh",
+            "CinemaLogo": "cinestar-general.jpg",
+            "CinemaLink": "cinestar-quoc-thanh",
+            "CinemaLocation": "271 Nguyễn Trãi, Q.1"
+        },
+        {
+            "ID_Cinema": 23,
+            "ID_Parent": 0,
+            "CinemaName": "DCINE Bến Thành",
+            "CinemaLogo": "dcine.jpg",
+            "CinemaLink": "dcine-ben-thanh",
+            "CinemaLocation": "6 Mạc Đĩnh Chi, Bến Nghé, Quận 1, Hồ Chí Minh"
+        },
+        {
+            "ID_Cinema": 24,
+            "ID_Parent": 0,
+            "CinemaName": "DDC - Đống Đa",
+            "CinemaLogo": "dongdacinema.jpg",
+            "CinemaLink": "ddc-dong-da",
+            "CinemaLocation": "890 Trần Hưng Đạo, Q.5"
+        },
+        {
+            "ID_Cinema": 25,
+            "ID_Parent": 43,
+            "CinemaName": "Galaxy - Huỳnh Tấn Phát",
+            "CinemaLogo": "galaxy-general.jpg",
+            "CinemaLink": "galaxy-huynh-tan-phat",
+            "CinemaLocation": "1362 Huỳnh Tấn Phát, KP1, Phú Mỹ, Q. 7"
+        },
+        {
+            "ID_Cinema": 26,
+            "ID_Parent": 43,
+            "CinemaName": "Galaxy - Kinh Dương Vương",
+            "CinemaLogo": "galaxy-general.jpg",
+            "CinemaLink": "galaxy-kinh-duong-vuong",
+            "CinemaLocation": "718bis Kinh Dương Vương, Q.6"
+        },
+        {
+            "ID_Cinema": 27,
+            "ID_Parent": 43,
+            "CinemaName": "Galaxy - Linh Trung",
+            "CinemaLogo": "galaxy-general.jpg",
+            "CinemaLink": "galaxy-linh-trung",
+            "CinemaLocation": "Siêu thị Co.opXtra Thủ Đức 934 QL1A, Phường Linh Trung, Quận Thủ Đức"
+        },
+        {
+            "ID_Cinema": 28,
+            "ID_Parent": 43,
+            "CinemaName": "Galaxy - Nguyễn Du",
+            "CinemaLogo": "galaxy-general.jpg",
+            "CinemaLink": "galaxy-nguyen-du",
+            "CinemaLocation": "116 Nguyễn Du, Q.1"
+        },
+        {
+            "ID_Cinema": 29,
+            "ID_Parent": 43,
+            "CinemaName": "Galaxy - Nguyễn Văn Quá",
+            "CinemaLogo": "galaxy-general.jpg",
+            "CinemaLink": "galaxy-nguyen-van-qua",
+            "CinemaLocation": "119B Nguyễn Văn Quá, Đông Hưng Thuận, Q.12, TPHCM"
+        },
+        {
+            "ID_Cinema": 30,
+            "ID_Parent": 43,
+            "CinemaName": "Galaxy - Phạm Văn Chí",
+            "CinemaLogo": "galaxy-general.jpg",
+            "CinemaLink": "galaxy-pham-van-chi",
+            "CinemaLocation": "Lầu 5, TTTM Platinum Plaza, 634 Phạm Văn Chí, Q.6"
+        },
+        {
+            "ID_Cinema": 31,
+            "ID_Parent": 43,
+            "CinemaName": "Galaxy - Quang Trung",
+            "CinemaLogo": "galaxy-general.jpg",
+            "CinemaLink": "galaxy-quang-trung",
+            "CinemaLocation": "L3-Co.opmart Foodcosa, 304A Quang Trung, Gò Vấp"
+        },
+        {
+            "ID_Cinema": 32,
+            "ID_Parent": 43,
+            "CinemaName": "Galaxy - Trung Chánh",
+            "CinemaLogo": "galaxy-general.jpg",
+            "CinemaLink": "galaxy-trung-chanh",
+            "CinemaLocation": "TTVH Q12 – 09, Q L 22, Trung Mỹ Tây , Q.12"
+        },
+        {
+            "ID_Cinema": 33,
+            "ID_Parent": 43,
+            "CinemaName": "Galaxy - Tân Bình",
+            "CinemaLogo": "galaxy-general.jpg",
+            "CinemaLink": "galaxy-tan-binh",
+            "CinemaLocation": "246 Nguyễn Hồng Đào, Tân Bình"
+        },
+        {
+            "ID_Cinema": 34,
+            "ID_Parent": 44,
+            "CinemaName": "Lotte Cinema Cantavil",
+            "CinemaLogo": "lotte-general.jpg",
+            "CinemaLink": "lotte-cinema-cantavil",
+            "CinemaLocation": "L7-Cantavil Premier, Xa Lộ Hà Nội, Q.2"
+        },
+        {
+            "ID_Cinema": 35,
+            "ID_Parent": 44,
+            "CinemaName": "Lotte Cinema Cộng Hòa",
+            "CinemaLogo": "lotte-general.jpg",
+            "CinemaLink": "lotte-cinema-cong-hoa",
+            "CinemaLocation": "L4-Pico Plaza, 20 Cộng Hòa, Tân Bình"
+        },
+        {
+            "ID_Cinema": 36,
+            "ID_Parent": 44,
+            "CinemaName": "Lotte Cinema Gò Vấp",
+            "CinemaLogo": "lotte-general.jpg",
+            "CinemaLink": "lotte-cinema-go-vap",
+            "CinemaLocation": "L3-Lotte Mart, 242 Nguyễn Văn Lượng, Gò Vấp"
+        },
+        {
+            "ID_Cinema": 37,
+            "ID_Parent": 44,
+            "CinemaName": "Lotte Cinema Nam Sài Gòn",
+            "CinemaLogo": "lotte-general.jpg",
+            "CinemaLink": "lotte-cinema-nam-sai-gon",
+            "CinemaLocation": "L3-Lotte Mart NSG, 469 Nguyễn Hữu Thọ, Q.7"
+        },
+        {
+            "ID_Cinema": 38,
+            "ID_Parent": 44,
+            "CinemaName": "Lotte Cinema Phú Thọ",
+            "CinemaLogo": "lotte-general.jpg",
+            "CinemaLink": "lotte-cinema-phu-tho",
+            "CinemaLocation": "L4-Lotte Mart Phú Thọ, Q.11"
+        },
+        {
+            "ID_Cinema": 39,
+            "ID_Parent": 44,
+            "CinemaName": "Lotte Cinema Thủ Đức",
+            "CinemaLogo": "lotte-general.jpg",
+            "CinemaLink": "lotte-cinema-thu-duc",
+            "CinemaLocation": "L2-Joy Citipoint, KCX Linh Trung, Thủ Đức"
+        },
+        {
+            "ID_Cinema": 40,
+            "ID_Parent": 0,
+            "CinemaName": "Mega GS Cao Thắng",
+            "CinemaLogo": "megags.jpg",
+            "CinemaLink": "mega-gs-cao-thang",
+            "CinemaLocation": "19 Cao Thắng, Q.3"
+        },
+        {
+            "ID_Cinema": 41,
+            "ID_Parent": 1,
+            "CinemaName": "CGV Liberty Citypoint",
+            "CinemaLogo": "cgv-general.jpg",
+            "CinemaLink": "cgv-liberty-citypoint",
+            "CinemaLocation": "Tầng M - 1, khách sạn Liberty Center Saigon Citypoint, 59 - 61 Pasteur, Quận 1"
+        },
+        {
+            "ID_Cinema": 42,
+            "ID_Parent": 1,
+            "CinemaName": "CGV Aeon Bình Tân",
+            "CinemaLogo": "cgv-general.jpg",
+            "CinemaLink": "cgv-aeon-binh-tan",
+            "CinemaLocation": "Tầng 3, Trung tâm thương mại Aeon Mall Bình Tân, Số 1 đường số 17A, khu phố 11, phường Bình Trị Đông B, quận Bình Tân"
+        },
+        {
+            "ID_Cinema": 43,
+            "ID_Parent": 0,
+            "CinemaName": "Galaxy",
+            "CinemaLogo": "galaxycine.jpg",
+            "CinemaLink": "galaxy"
+        },
+        {
+            "ID_Cinema": 44,
+            "ID_Parent": 0,
+            "CinemaName": "Lotte Cinema",
+            "CinemaLogo": "404b8c4b80d77732e7426cdb7e24be20.jpg",
+            "CinemaLink": "lotte-cinema",
+            "CinemaLocation": ""
+        },
+        {
+            "ID_Cinema": 45,
+            "ID_Parent": 0,
+            "CinemaName": "CineStar",
+            "CinemaLogo": "cinestar.jpg",
+            "CinemaLink": "cinestar",
+            "CinemaLocation": ""
+        },
+        {
+            "ID_Cinema": 46,
+            "ID_Parent": 23,
+            "CinemaName": "DCINE Bến Thành",
+            "CinemaLogo": "dcine-general.jpg",
+            "CinemaLink": "dcine-ben-thanh",
+            "CinemaLocation": "6 Mạc Đĩnh Chi, Bến Nghé, Quận 1, Hồ Chí Minh"
+        },
+        {
+            "ID_Cinema": 47,
+            "ID_Parent": 40,
+            "CinemaName": "Mega GS Cao Thắng",
+            "CinemaLogo": "mega-general.jpg",
+            "CinemaLink": "mega-gs-cao-thang",
+            "CinemaLocation": "19 Cao Thắng, Q.3"
+        },
+        {
+            "ID_Cinema": 48,
+            "ID_Parent": 24,
+            "CinemaName": "DDC - Đống Đa",
+            "CinemaLogo": "ddc-general.jpg",
+            "CinemaLink": "ddc-dong-da",
+            "CinemaLocation": "890 Trần Hưng Đạo, Q.5"
+        },
+        {
+            "ID_Cinema": 49,
+            "ID_Parent": 49,
+            "CinemaName": "DDC - Đống Đa",
+            "CinemaLogo": "ddc-general.jpg",
+            "CinemaLink": "ddc-dong-da",
+            "CinemaLocation": "890 Trần Hưng Đạo, Q.5"
+        }
+    ],
+    "Cinema_Movie": [
+        {
+            "ID_Cinema_Movie": 1,
+            "ID_Cinema": 2,
+            "MovieName": "Đánh Cắp Giấc Mơ - Inception",
+            "MovieLogo": "danh-cap-giac-mo-inception-14794516242347_60x60.jpg",
+            "Age": "C16",
+            "MovieTime": "148 phút - TIX 0 - IMDb 8.8",
+            "Digital": "2D Digital",
+            "MovieShowtimes": ["<span>14:00</span> ~ 16:28", "<span>15:10</span> ~ 17:38", "<span>17:10</span> ~ 19:38", "<span>18:20</span> ~ 20:48"]
+
+        },
+        {
+            "ID_Cinema_Movie": 2,
+            "ID_Cinema": 2,
+            "MovieName": "Điệp Viên Siêu Lầy - My Spy",
+            "MovieLogo": "diep-vien-sieu-lay-my-spy-p-15959969936666_60x60.jpg",
+            "Age": "C16",
+            "MovieTime": "148 phút - TIX 0 - IMDb 8.8",
+            "Digital": "2D Digital",
+            "MovieShowtimes": ["<span>14:00</span> ~ 16:28", "<span>15:10</span> ~ 17:38", "<span>17:10</span> ~ 19:38", "<span>18:20</span> ~ 20:48"]
+
+        },
+        {
+            "ID_Cinema_Movie": 3,
+            "ID_Cinema": 2,
+            "MovieName": "Cá Sấu Tử Thần - Black Water: Abyss",
+            "MovieLogo": "ca-sau-tu-than-black-water-abyss-c18-15964423012362_60x60.jpg",
+            "Age": "C16",
+            "MovieTime": "148 phút - TIX 0 - IMDb 8.8",
+            "Digital": "2D Digital",
+            "MovieShowtimes": ["<span>14:00</span> ~ 16:28", "<span>15:10</span> ~ 17:38", "<span>17:10</span> ~ 19:38", "<span>18:20</span> ~ 20:48"]
+
+        },
+        {
+            "ID_Cinema_Movie": 4,
+            "ID_Cinema": 2,
+            "MovieName": "Hầm Quỷ - Behind You",
+            "MovieLogo": "ham-quy-behind-you-c18-15976394035712_60x60.jpg",
+            "Age": "C16",
+            "MovieTime": "148 phút - TIX 0 - IMDb 8.8",
+            "Digital": "2D Digital",
+            "MovieShowtimes": ["<span>14:00</span> ~ 16:28", "<span>15:10</span> ~ 17:38", "<span>17:10</span> ~ 19:38", "<span>18:20</span> ~ 20:48"]
+
+        },
+        {
+            "ID_Cinema_Movie": 5,
+            "ID_Cinema": 3,
+            "MovieName": "Hầm Quỷ - Behind You",
+            "MovieLogo": "ke-an-nap-you-re-not-alone-c16-15966142184253_60x60.jpg",
+            "Age": "C16",
+            "MovieTime": "148 phút - TIX 0 - IMDb 8.8",
+            "Digital": "2D Digital",
+            "MovieShowtimes": ["<span>14:00</span> ~ 16:28", "<span>15:10</span> ~ 17:38", "<span>17:10</span> ~ 19:38", "<span>18:20</span> ~ 20:48"]
+
+        },
+        {
+            "ID_Cinema_Movie": 6,
+            "ID_Cinema": 3,
+            "MovieName": "Hầm Quỷ - Behind You",
+            "MovieLogo": "ham-quy-behind-you-c18-15976394035712_60x60.jpg",
+            "Age": "C16",
+            "MovieTime": "148 phút - TIX 0 - IMDb 8.8",
+            "Digital": "2D Digital",
+            "MovieShowtimes": ["<span>14:00</span> ~ 16:28", "<span>15:10</span> ~ 17:38", "<span>17:10</span> ~ 19:38", "<span>18:20</span> ~ 20:48"]
+
+        },
+        {
+            "ID_Cinema_Movie": 7,
+            "ID_Cinema": 3,
+            "MovieName": "Đánh Cắp Giấc Mơ - Inception",
+            "MovieLogo": "ke-cuong-sat-unhinged-c18-15954997613578_60x60.jpg",
+            "Age": "C16",
+            "MovieTime": "148 phút - TIX 0 - IMDb 8.8",
+            "Digital": "2D Digital",
+            "MovieShowtimes": ["<span>14:00</span> ~ 16:28", "<span>15:10</span> ~ 17:38", "<span>17:10</span> ~ 19:38", "<span>18:20</span> ~ 20:48"]
+
+        },
+        {
+            "ID_Cinema_Movie": 8,
+            "ID_Cinema": 3,
+            "MovieName": "Điệp Viên Siêu Lầy - My Spy",
+            "MovieLogo": "diep-vien-sieu-lay-my-spy-p-15959969936666_60x60.jpg",
+            "Age": "C16",
+            "MovieTime": "148 phút - TIX 0 - IMDb 8.8",
+            "Digital": "2D Digital",
+            "MovieShowtimes": ["<span>14:00</span> ~ 16:28", "<span>15:10</span> ~ 17:38", "<span>17:10</span> ~ 19:38", "<span>18:20</span> ~ 20:48"]
+
+        },
+        {
+            "ID_Cinema_Movie": 9,
+            "ID_Cinema": 3,
+            "MovieName": "Cá Sấu Tử Thần - Black Water: Abyss",
+            "MovieLogo": "ca-sau-tu-than-black-water-abyss-c18-15964423012362_60x60.jpg",
+            "Age": "C16",
+            "MovieTime": "148 phút - TIX 0 - IMDb 8.8",
+            "Digital": "2D Digital",
+            "MovieShowtimes": ["<span>14:00</span> ~ 16:28", "<span>15:10</span> ~ 17:38", "<span>17:10</span> ~ 19:38", "<span>18:20</span> ~ 20:48"]
+
+        },
+        {
+            "ID_Cinema_Movie": 10,
+            "ID_Cinema": 3,
+            "MovieName": "Hầm Quỷ - Behind You",
+            "MovieLogo": "danh-cap-giac-mo-inception-14794516242347_60x60.jpg",
+            "Age": "C16",
+            "MovieTime": "148 phút - TIX 0 - IMDb 8.8",
+            "Digital": "2D Digital",
+            "MovieShowtimes": ["<span>14:00</span> ~ 16:28", "<span>15:10</span> ~ 17:38", "<span>17:10</span> ~ 19:38", "<span>18:20</span> ~ 20:48"]
+
+        },
+        {
+            "ID_Cinema_Movie": 11,
+            "ID_Cinema": 46,
+            "MovieName": "Hầm Quỷ - Behind You",
+            "MovieLogo": "ham-quy-behind-you-c18-15976394035712_60x60.jpg",
+            "Age": "C16",
+            "MovieTime": "148 phút - TIX 0 - IMDb 8.8",
+            "Digital": "2D Digital",
+            "MovieShowtimes": ["<span>14:00</span> ~ 16:28", "<span>15:10</span> ~ 17:38", "<span>17:10</span> ~ 19:38", "<span>18:20</span> ~ 20:48"]
+
+        },
+        {
+            "ID_Cinema_Movie": 12,
+            "ID_Cinema": 46,
+            "MovieName": "Hầm Quỷ - Behind You",
+            "MovieLogo": "ke-an-nap-you-re-not-alone-c16-15966142184253_60x60.jpg",
+            "Age": "C16",
+            "MovieTime": "148 phút - TIX 0 - IMDb 8.8",
+            "Digital": "2D Digital",
+            "MovieShowtimes": ["<span>14:00</span> ~ 16:28", "<span>15:10</span> ~ 17:38", "<span>17:10</span> ~ 19:38", "<span>18:20</span> ~ 20:48"]
+
+        },
+        {
+            "ID_Cinema_Movie": 13,
+            "ID_Cinema": 46,
+            "MovieName": "Hầm Quỷ - Behind You",
+            "MovieLogo": "ham-quy-behind-you-c18-15976394035712_60x60.jpg",
+            "Age": "C16",
+            "MovieTime": "148 phút - TIX 0 - IMDb 8.8",
+            "Digital": "2D Digital",
+            "MovieShowtimes": ["<span>14:00</span> ~ 16:28", "<span>15:10</span> ~ 17:38", "<span>17:10</span> ~ 19:38", "<span>18:20</span> ~ 20:48"]
+
+        },
+        {
+            "ID_Cinema_Movie": 14,
+            "ID_Cinema": 46,
+            "MovieName": "Đánh Cắp Giấc Mơ - Inception",
+            "MovieLogo": "ke-cuong-sat-unhinged-c18-15954997613578_60x60.jpg",
+            "Age": "C16",
+            "MovieTime": "148 phút - TIX 0 - IMDb 8.8",
+            "Digital": "2D Digital",
+            "MovieShowtimes": ["<span>14:00</span> ~ 16:28", "<span>15:10</span> ~ 17:38", "<span>17:10</span> ~ 19:38", "<span>18:20</span> ~ 20:48"]
+
+        },
+        {
+            "ID_Cinema_Movie": 15,
+            "ID_Cinema": 46,
+            "MovieName": "Điệp Viên Siêu Lầy - My Spy",
+            "MovieLogo": "diep-vien-sieu-lay-my-spy-p-15959969936666_60x60.jpg",
+            "Age": "C16",
+            "MovieTime": "148 phút - TIX 0 - IMDb 8.8",
+            "Digital": "2D Digital",
+            "MovieShowtimes": ["<span>14:00</span> ~ 16:28", "<span>15:10</span> ~ 17:38", "<span>17:10</span> ~ 19:38", "<span>18:20</span> ~ 20:48"]
+
+        },
+        {
+            "ID_Cinema_Movie": 16,
+            "ID_Cinema": 46,
+            "MovieName": "Cá Sấu Tử Thần - Black Water: Abyss",
+            "MovieLogo": "ca-sau-tu-than-black-water-abyss-c18-15964423012362_60x60.jpg",
+            "Age": "C16",
+            "MovieTime": "148 phút - TIX 0 - IMDb 8.8",
+            "Digital": "2D Digital",
+            "MovieShowtimes": ["<span>14:00</span> ~ 16:28", "<span>15:10</span> ~ 17:38", "<span>17:10</span> ~ 19:38", "<span>18:20</span> ~ 20:48"]
+
+        },
+        {
+            "ID_Cinema_Movie": 17,
+            "ID_Cinema": 46,
+            "MovieName": "Hầm Quỷ - Behind You",
+            "MovieLogo": "danh-cap-giac-mo-inception-14794516242347_60x60.jpg",
+            "Age": "C16",
+            "MovieTime": "148 phút - TIX 0 - IMDb 8.8",
+            "Digital": "2D Digital",
+            "MovieShowtimes": ["<span>14:00</span> ~ 16:28", "<span>15:10</span> ~ 17:38", "<span>17:10</span> ~ 19:38", "<span>18:20</span> ~ 20:48"]
+
+        },
+        {
+            "ID_Cinema_Movie": 18,
+            "ID_Cinema": 48,
+            "MovieName": "Điệp Viên Siêu Lầy - My Spy",
+            "MovieLogo": "diep-vien-sieu-lay-my-spy-p-15959969936666_60x60.jpg",
+            "Age": "C16",
+            "MovieTime": "148 phút - TIX 0 - IMDb 8.8",
+            "Digital": "2D Digital",
+            "MovieShowtimes": ["<span>14:00</span> ~ 16:28", "<span>15:10</span> ~ 17:38", "<span>17:10</span> ~ 19:38", "<span>18:20</span> ~ 20:48"]
+
+        },
+        {
+            "ID_Cinema_Movie": 19,
+            "ID_Cinema": 48,
+            "MovieName": "Cá Sấu Tử Thần - Black Water: Abyss",
+            "MovieLogo": "ca-sau-tu-than-black-water-abyss-c18-15964423012362_60x60.jpg",
+            "Age": "C16",
+            "MovieTime": "148 phút - TIX 0 - IMDb 8.8",
+            "Digital": "2D Digital",
+            "MovieShowtimes": ["<span>14:00</span> ~ 16:28", "<span>15:10</span> ~ 17:38", "<span>17:10</span> ~ 19:38", "<span>18:20</span> ~ 20:48"]
+
+        },
+        {
+            "ID_Cinema_Movie": 20,
+            "ID_Cinema": 48,
+            "MovieName": "Hầm Quỷ - Behind You",
+            "MovieLogo": "ham-quy-behind-you-c18-15976394035712_60x60.jpg",
+            "Age": "C16",
+            "MovieTime": "148 phút - TIX 0 - IMDb 8.8",
+            "Digital": "2D Digital",
+            "MovieShowtimes": ["<span>14:00</span> ~ 16:28", "<span>15:10</span> ~ 17:38", "<span>17:10</span> ~ 19:38", "<span>18:20</span> ~ 20:48"]
+
+        },
+        {
+            "ID_Cinema_Movie": 21,
+            "ID_Cinema": 48,
+            "MovieName": "Hầm Quỷ - Behind You",
+            "MovieLogo": "ke-an-nap-you-re-not-alone-c16-15966142184253_60x60.jpg",
+            "Age": "C16",
+            "MovieTime": "148 phút - TIX 0 - IMDb 8.8",
+            "Digital": "2D Digital",
+            "MovieShowtimes": ["<span>14:00</span> ~ 16:28", "<span>15:10</span> ~ 17:38", "<span>17:10</span> ~ 19:38", "<span>18:20</span> ~ 20:48"]
+
+        },
+        {
+            "ID_Cinema_Movie": 22,
+            "ID_Cinema": 48,
+            "MovieName": "Hầm Quỷ - Behind You",
+            "MovieLogo": "ham-quy-behind-you-c18-15976394035712_60x60.jpg",
+            "Age": "C16",
+            "MovieTime": "148 phút - TIX 0 - IMDb 8.8",
+            "Digital": "2D Digital",
+            "MovieShowtimes": ["<span>14:00</span> ~ 16:28", "<span>15:10</span> ~ 17:38", "<span>17:10</span> ~ 19:38", "<span>18:20</span> ~ 20:48"]
+
+        },
+        {
+            "ID_Cinema_Movie": 23,
+            "ID_Cinema": 3,
+            "MovieName": "Điệp Viên Siêu Lầy - My Spy",
+            "MovieLogo": "diep-vien-sieu-lay-my-spy-p-15959969936666_60x60.jpg",
+            "Age": "C16",
+            "MovieTime": "148 phút - TIX 0 - IMDb 8.8",
+            "Digital": "2D Digital",
+            "MovieShowtimes": ["<span>14:00</span> ~ 16:28", "<span>15:10</span> ~ 17:38", "<span>17:10</span> ~ 19:38", "<span>18:20</span> ~ 20:48"]
+
+        },
+        {
+            "ID_Cinema_Movie": 24,
+            "ID_Cinema": 3,
+            "MovieName": "Cá Sấu Tử Thần - Black Water: Abyss",
+            "MovieLogo": "ca-sau-tu-than-black-water-abyss-c18-15964423012362_60x60.jpg",
+            "Age": "C16",
+            "MovieTime": "148 phút - TIX 0 - IMDb 8.8",
+            "Digital": "2D Digital",
+            "MovieShowtimes": ["<span>14:00</span> ~ 16:28", "<span>15:10</span> ~ 17:38", "<span>17:10</span> ~ 19:38", "<span>18:20</span> ~ 20:48"]
+
+        },
+        {
+            "ID_Cinema_Movie": 25,
+            "ID_Cinema": 3,
+            "MovieName": "Hầm Quỷ - Behind You",
+            "MovieLogo": "danh-cap-giac-mo-inception-14794516242347_60x60.jpg",
+            "Age": "C16",
+            "MovieTime": "148 phút - TIX 0 - IMDb 8.8",
+            "Digital": "2D Digital",
+            "MovieShowtimes": ["<span>14:00</span> ~ 16:28", "<span>15:10</span> ~ 17:38", "<span>17:10</span> ~ 19:38", "<span>18:20</span> ~ 20:48"]
+
+        },
+        {
+            "ID_Cinema_Movie": 26,
+            "ID_Cinema": 25,
+            "MovieName": "Hầm Quỷ - Behind You",
+            "MovieLogo": "ham-quy-behind-you-c18-15976394035712_60x60.jpg",
+            "Age": "C16",
+            "MovieTime": "148 phút - TIX 0 - IMDb 8.8",
+            "Digital": "2D Digital",
+            "MovieShowtimes": ["<span>14:00</span> ~ 16:28", "<span>15:10</span> ~ 17:38", "<span>17:10</span> ~ 19:38", "<span>18:20</span> ~ 20:48"]
+
+        },
+        {
+            "ID_Cinema_Movie": 27,
+            "ID_Cinema": 25,
+            "MovieName": "Hầm Quỷ - Behind You",
+            "MovieLogo": "ke-an-nap-you-re-not-alone-c16-15966142184253_60x60.jpg",
+            "Age": "C16",
+            "MovieTime": "148 phút - TIX 0 - IMDb 8.8",
+            "Digital": "2D Digital",
+            "MovieShowtimes": ["<span>14:00</span> ~ 16:28", "<span>15:10</span> ~ 17:38", "<span>17:10</span> ~ 19:38", "<span>18:20</span> ~ 20:48"]
+
+        },
+        {
+            "ID_Cinema_Movie": 28,
+            "ID_Cinema": 25,
+            "MovieName": "Hầm Quỷ - Behind You",
+            "MovieLogo": "ham-quy-behind-you-c18-15976394035712_60x60.jpg",
+            "Age": "C16",
+            "MovieTime": "148 phút - TIX 0 - IMDb 8.8",
+            "Digital": "2D Digital",
+            "MovieShowtimes": ["<span>14:00</span> ~ 16:28", "<span>15:10</span> ~ 17:38", "<span>17:10</span> ~ 19:38", "<span>18:20</span> ~ 20:48"]
+
+        },
+        {
+            "ID_Cinema_Movie": 29,
+            "ID_Cinema": 25,
+            "MovieName": "Đánh Cắp Giấc Mơ - Inception",
+            "MovieLogo": "ke-cuong-sat-unhinged-c18-15954997613578_60x60.jpg",
+            "Age": "C16",
+            "MovieTime": "148 phút - TIX 0 - IMDb 8.8",
+            "Digital": "2D Digital",
+            "MovieShowtimes": ["<span>14:00</span> ~ 16:28", "<span>15:10</span> ~ 17:38", "<span>17:10</span> ~ 19:38", "<span>18:20</span> ~ 20:48"]
+
+        }
+        
+    ]
+}

@@ -1,0 +1,133 @@
+.ckinfor {
+    color: color('darkgrey');
+    position: fixed;
+    top: 0px;
+    right: 0;
+    width: 25%;
+    height: 100%;
+    z-index: 9999;
+    @include box-shawdow(0px 0 15px rgba(color('black'), 0.3));
+    padding-left: spacing(4);
+    padding-right: spacing(4);
+    overflow: auto;
+    &__item {
+        border-bottom: 1px dashed color('whitegray');
+        padding-bottom: spacing(1.5);
+        padding-top: spacing(1.5);
+    }
+    &__total {
+        color: color('green');
+        text-align: center;
+        font-size: $font-size-small*3;
+    }
+    &__movie {
+        line-height: 24px;
+        .title
+        {
+            font-size: $font-size-normal;
+            margin-bottom: spacing(0.5);
+        }
+    }
+    &__seattype {
+        display: flex;
+        > div {
+            display: inline-block;
+            width: 50%;
+        }
+        &__text {
+            color: color('primary');
+        }
+        &__price {
+            color: color('green');
+            font-size: $font-size-normal;
+            text-align: right;
+        }
+    }
+    &__user {
+        color: color('lightgray');
+        border-bottom: none;
+    }
+    &__payment {
+        padding-top: 0;
+        margin-bottom: spacing(15);
+        border-bottom: none;
+        &__type {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            margin-bottom: spacing(1);
+            &#payment-atm {
+                align-items: initial;
+                .content, .form-radio {
+                    position: relative;
+                    top: 15px;
+                }
+            }
+            .form-radio {
+                width: 30px;
+            }
+            .image {
+                width: 50px;
+                margin-right: spacing(1);
+            }
+            .content {
+                flex-grow: 1;
+                .title {
+                    font-size: $font-size-normal;
+                    &.atm__card {
+                        position: relative;
+                        cursor: pointer;
+                        .fa-angle-down {
+                            text-align: right;
+                            position: absolute;
+                            right: 0;
+                        }
+                    }
+                }
+                .desc {
+                    font-size: $font-size-small;
+                    color: color('primary');
+                }
+            }
+            #list-bank {
+                display: none;
+                max-height: 0;
+                @include list-default;
+                @include transition-all;
+                &.active {
+                    max-height: 500px;
+                    display: block;
+                }
+                li {
+                    display: inline-block;
+                }
+            }
+        }
+    }
+    &__submit {
+        background-color: color('white');
+        padding-top: spacing(2);
+        position: fixed;
+        right: 0;
+        width: 25%;
+        bottom: 0;
+        &__warning {
+            padding-left: spacing(4);
+            padding-right: spacing(4);
+            .fa-exclamation {
+                background-color: color('primary');
+                color: color('white');
+                margin-right: spacing(0.5);
+                @include circle(16px);
+            }
+        }
+        .btn-default {
+            margin-top: spacing(2);
+            padding: 0;
+            width: 100%;
+            height: 60px;
+            line-height: 60px;
+            @include bd-radius(0);
+        }
+    }
+}

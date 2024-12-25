@@ -1,0 +1,47 @@
+#stapp {
+  background-image: url(../images/app-mobile/backapp.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 700px;
+  padding: spacing(12) 0 spacing(8);
+  .stapp {
+    &__content {
+      color: color("white");
+      p {
+        padding-top: spacing(1);
+        margin-bottom: spacing(1);
+        color: color("white");
+        .link-app {
+          color: color("white");
+          text-decoration: underline;
+        }
+      }
+    }
+    &__textlarge {
+      font-size: 0.7 * $font-size-larger;
+      font-weight: $font-weight-bold;
+      margin-bottom: spacing(1);
+    }
+    &__textsmall {
+      font-size: 1.34 * $font-size-small;
+      margin-bottom: spacing(1);
+    }
+    &__slider {
+      margin: 0 auto;
+      max-width: 210px;
+      @include bd-radius(26px);
+      overflow: hidden;
+      &__bg {
+        background-image: url(../images/app-mobile/mobile.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        position: absolute;
+        width: 220px;
+        height: calc(100% + 10px);
+        transform: translateX(-50%);
+        left: 50%;
+        top: -5px;
+      }
+    }
+  }
+}

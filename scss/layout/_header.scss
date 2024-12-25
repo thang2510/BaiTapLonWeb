@@ -1,0 +1,71 @@
+body {
+    font-family: $font-sfm;
+}
+#header {
+    background-color: rgba(color('white'), 0.9);
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+.header {
+    position: relative;
+    @include flex-box(center, center);
+    padding: spacing(0.5, 1.5);
+    @include box-shawdow(0 0 15px rgba(color('black'), 0.3));
+    &__logo {
+        width: 50px;
+    }
+    &__navbar {
+        flex-grow: 1;
+    }
+    &__nav {
+        @include list-default;
+        @include flex-box(center);
+        @include pos-absolute(50%, 50%);
+        @include transform(translate(-50%, -50%));
+        &__link {
+            color: color('black');
+            padding: spacing(0, 1);
+            &:hover, &:focus, &.active {
+                color: color();
+            }
+        }
+    }
+    &__login {
+        padding-right: spacing(1);
+        margin-right: spacing(1);
+        border-right: 1px solid color('whitegray');
+        img {
+            width: 30px;
+            margin-right: spacing(0.5);
+            @include bd-radius(50%);
+        }
+        a {
+            color: color('lightgray');
+        }
+    }
+    &__location {
+        position: relative;
+        min-width: 165px;
+        .header__selected {
+            color: color('lightgray');
+            padding-left: spacing(3);
+            padding-right: spacing(4);
+            position: relative;
+            cursor: pointer;
+            &::before, &::after {
+                width: 20px;
+                height: 20px;
+            }
+            &::before {
+                @include pos-absolute(0, 0, '');
+                background: url(../images/icons/location-header.png) no-repeat;
+            }
+            &::after {
+                @include pos-absolute(4px, initial, '');
+                right: 0;
+                background: url(../images/icons/dropdown-icon.png) no-repeat;
+            }
+        }
+    }
+}

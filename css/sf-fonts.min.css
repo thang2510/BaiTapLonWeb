@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "SF Regular";
+  src: url("../fonts/SF-UI-Display-Regular.otf");
+  src: url("../fonts/SF-UI-Display-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "SF Medium";
+  src: url("../fonts/SF-UI-Display-Medium.otf");
+  src: url("../fonts/SF-UI-Display-Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "SF Text Regular";
+  src: url("../fonts/SF-UI-Text-Regular.otf");
+  src: url("../fonts/SF-UI-Text-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "SF Text Medium";
+  src: url("../fonts/SF-UI-Text-Medium.otf");
+  src: url("../fonts/SF-UI-Text-Medium.otf") format("opentype");
+}
+/*# sourceMappingURL=sf-fonts.min.css.map */

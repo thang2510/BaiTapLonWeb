@@ -1,0 +1,5 @@
+@mixin font-face($name, $linkfont) {    
+	font-family: $name;
+	src: url($linkfont);
+	src: url($linkfont) format('opentype')
+}

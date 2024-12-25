@@ -1,0 +1,18 @@
+body {
+    font-family: $font-sf;
+    font-size: $font-size-base;
+    color: color('black');
+    padding: 0;
+    margin: 0;
+}
+a {
+    @include transition-all;
+}
+.container, [class*="col-"] {
+    padding-left: spacing(0.7);
+    padding-right: spacing(0.7);
+}
+.row {
+    margin-left: spacing(-0.7);
+    margin-right: spacing(-0.7);
+}

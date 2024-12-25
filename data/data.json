@@ -1,0 +1,294 @@
+
+{
+    "Cinema": [
+        {
+            "ID_Cinema": 1,
+            "CinemaName": "CGV Aeon Bình Tân"
+        },
+        {
+            "ID_Cinema": 2,
+            "CinemaName": "CGV Aeon Tân Phú"
+        },
+        {
+            "ID_Cinema": 3,
+            "CinemaName": "CGV Crescent Mall"
+        },
+        {
+            "ID_Cinema": 4,
+            "CinemaName": "CGV Giga Mall Thủ Đức"
+        },
+        {
+            "ID_Cinema": 5,
+            "CinemaName": "CGV Hoàng Văn Thụ"
+        },
+        {
+            "ID_Cinema": 6,
+            "CinemaName": "CGV Hùng Vương Plaza"
+        },
+        {
+            "ID_Cinema": 7,
+            "CinemaName": "CGV IMC Trần Quang Khải"
+        },
+        {
+            "ID_Cinema": 8,
+            "CinemaName": "CGV Lý Chính Thắng"
+        },
+        {
+            "ID_Cinema": 9,
+            "CinemaName": "CGV Pandora City"
+        },
+        {
+            "ID_Cinema": 10,
+            "CinemaName": "CGV Pearl Plaza"
+        },
+        {
+            "ID_Cinema": 11,
+            "CinemaName": "CGV Saigonres Nguyễn Xí"
+        },
+        {
+            "ID_Cinema": 12,
+            "CinemaName": "CGV Satra Củ Chi"
+        },
+        {
+            "ID_Cinema": 13,
+            "CinemaName": "CGV Sư Vạn Hạnh"
+        },
+        {
+            "ID_Cinema": 14,
+            "CinemaName": "CGV Thảo Điền Pearl"
+        },
+        {
+            "ID_Cinema": 15,
+            "CinemaName": "CGV Trường Sơn (CGV CT Plaza)"
+        },
+        {
+            "ID_Cinema": 16,
+            "CinemaName": "CGV Vincom Center Landmark 81"
+        },
+        {
+            "ID_Cinema": 17,
+            "CinemaName": "CGV Vincom Gò Vấp"
+        },
+        {
+            "ID_Cinema": 18,
+            "CinemaName": "CGV Vincom Thủ Đức"
+        },
+        {
+            "ID_Cinema": 19,
+            "CinemaName": "CGV Vincom Đồng Khởi"
+        },
+        {
+            "ID_Cinema": 20,
+            "CinemaName": "CGV Vivo City"
+        },
+        {
+            "ID_Cinema": 21,
+            "CinemaName": "CineStar Hai Bà Trưng"
+        },
+        {
+            "ID_Cinema": 22,
+            "CinemaName": "CineStar Quốc Thanh"
+        },
+        {
+            "ID_Cinema": 23,
+            "CinemaName": "DCINE Bến Thành"
+        },
+        {
+            "ID_Cinema": 24,
+            "CinemaName": "DDC - Đống Đa"
+        },
+        {
+            "ID_Cinema": 25,
+            "CinemaName": "Galaxy - Huỳnh Tấn Phát"
+        },
+        {
+            "ID_Cinema": 26,
+            "CinemaName": "Galaxy - Kinh Dương Vương"
+        },
+        {
+            "ID_Cinema": 27,
+            "CinemaName": "Galaxy - Linh Trung"
+        },
+        {
+            "ID_Cinema": 28,
+            "CinemaName": "Galaxy - Nguyễn Du"
+        },
+        {
+            "ID_Cinema": 29,
+            "CinemaName": "Galaxy - Nguyễn Văn Quá"
+        },
+        {
+            "ID_Cinema": 30,
+            "CinemaName": "Galaxy - Phạm Văn Chí"
+        },
+        {
+            "ID_Cinema": 31,
+            "CinemaName": "Galaxy - Quang Trung"
+        },
+        {
+            "ID_Cinema": 32,
+            "CinemaName": "Galaxy - Trung Chánh"
+        },
+        {
+            "ID_Cinema": 33,
+            "CinemaName": "Galaxy - Tân Bình"
+        },
+        {
+            "ID_Cinema": 34,
+            "CinemaName": "Lotte Cinema Cantavil"
+        },
+        {
+            "ID_Cinema": 35,
+            "CinemaName": "Lotte Cinema Cộng Hòa"
+        },
+        {
+            "ID_Cinema": 36,
+            "CinemaName": "Lotte Cinema Gò Vấp"
+        },
+        {
+            "ID_Cinema": 37,
+            "CinemaName": "Lotte Cinema Nam Sài Gòn"
+        },
+        {
+            "ID_Cinema": 38,
+            "CinemaName": "Lotte Cinema Phú Thọ"
+        },
+        {
+            "ID_Cinema": 39,
+            "CinemaName": "Lotte Cinema Thủ Đức"
+        },
+        {
+            "ID_Cinema": 40,
+            "CinemaName": "Mega GS Cao Thắng"
+        },
+        {
+            "ID_Cinema": 41,
+            "CinemaName": "CGV Liberty Citypoint"
+        }
+    ],
+    "Movie": [
+        {
+            "ID_Movie": 1,
+            "ID_Cinema": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30",
+                "31","32","33","34","35","36","37","38","39","40", "41"],
+            "MovieName": "Cá sấu tử thần - black water: Abyss - (C18)"
+        },
+        {
+            "ID_Movie": 2,
+            "ID_Cinema": ["11","12","13","14","15","16","17","18","19","20","21","22","23","24","25"],
+            "MovieName": "Điệp viên siêu lầy - My spy (13)"
+        },
+        {
+            "ID_Movie": 3,
+            "ID_Cinema": ["6","7","8","9","10","11","12","13","14","15","16","17","18","19","20"],
+            "MovieName": "Nội chiến siêu anh hùng - Captain America: Civil war (NC16)"
+        },
+        {
+            "ID_Movie": 4,
+            "ID_Cinema": ["16","17","18","19","20","21","22","23","24","25","26","27","28","29","30"],
+            "MovieName": "Mãi bên em - Endless - (C13)"
+        },
+        {
+            "ID_Movie": 5,
+            "ID_Cinema": ["4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19"],
+            "MovieName": "Big hero 6"
+        },
+        {
+            "ID_Movie": 6,
+            "ID_Cinema": ["29","30","31","32","33","34","35","36","37","38","39","40", "41"],
+            "MovieName": "Dinh thự oan khuất - Ghost of war - (C18)"
+        },
+        {
+            "ID_Movie": 7,
+            "ID_Cinema": ["6","7","8","9","10","11","12","13","14","33","34","35","36","37","38","39","40", "41"],
+            "MovieName": "Hồn ma văn sĩ - Ghost writer - (C18)"
+        },
+        {
+            "ID_Movie": 8,
+            "ID_Cinema": ["11","12","13","14","15","16","17","18","19","39","40", "41"],
+            "MovieName": "Kẻ cuồng sát - Unhinged (C18)"
+        },
+        {
+            "ID_Movie": 9,
+            "ID_Cinema": ["1","2","3","4","5","6","7","8","16","17","18","19","39","40", "41"],
+            "MovieName": "Cậu bé người gỗ Pinocchio - Pinocchio - (P)"
+        },
+        {
+            "ID_Movie": 10,
+            "ID_Cinema": ["34","35","36","37","38","9","10","11","12","1","2","3","4"],
+            "MovieName": "Chuyến du lịch chết chóc - outback - (C16)"
+        },
+        {
+            "ID_Movie": 11,
+            "ID_Cinema": ["6","7","8","9","10","11","1","2","3","4","5","39","40", "41"],
+            "MovieName": "Bán đảo - peninsula - (C18)"
+        },
+        {
+            "ID_Movie": 12,
+            "ID_Cinema": ["1","2","3","4","5","6","7","8","9","10","11"],
+            "MovieName": "Tàn tích quỷ ám - relic - (C18)"
+        },
+        {
+            "ID_Movie": 13,
+            "ID_Cinema": ["1","2","3","4","5","6","7","8","9","10","11"],
+            "MovieName": "Yêu nhau mùa ế - low season - (C16)"
+        },
+        {
+            "ID_Movie": 14,
+            "ID_Cinema": ["1","2","3","4","5","6","7","8","9","10","11"],
+            "MovieName": "Cuộc phiêu lưu của scooby-doo! - scoob! - (P)"
+        },
+        {
+            "ID_Movie": 15,
+            "ID_Cinema": ["1","2","3","4","5","6","7","8","9","10","11"],
+            "MovieName": "Ngôi đền kì quái - pee nak 2 - (C6)"
+        }
+    ],
+    "Showtimes": [
+        {
+            "ID_Showtime": 1,
+            "ID_Movie": ["1", "2", "3"],
+            "Time": "14:40"
+        },
+        {
+            "ID_Showtime": 2,
+            "ID_Movie": ["1", "5", "6"],
+            "Time": "15:40"
+        },
+        {
+            "ID_Showtime": 3,
+            "ID_Movie": ["5", "7", "9"],
+            "Time": "16:40"
+        },
+        {
+            "ID_Showtime": 4,
+            "ID_Movie": ["3", "2", "5"],
+            "Time": "17:40"
+        },
+        {
+            "ID_Showtime": 5,
+            "ID_Movie": ["10", "1", "15"],
+            "Time": "17:40"
+        },
+        {
+            "ID_Showtime": 6,
+            "ID_Movie": ["4", "7", "12"],
+            "Time": "18:40"
+        },
+        {
+            "ID_Showtime": 7,
+            "ID_Movie": ["8", "11", "13"],
+            "Time": "19:40"
+        },
+        {
+            "ID_Showtime": 8,
+            "ID_Movie": ["14", "2", "5"],
+            "Time": "20:40"
+        },
+        {
+            "ID_Showtime": 9,
+            "ID_Movie": ["4", "6", "1"],
+            "Time": "21:40"
+        }
+    ]
+}

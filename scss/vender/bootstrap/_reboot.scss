@@ -1,0 +1,137 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+html {
+    -webkit-tap-highlight-color: rgba($black, 0);
+}
+article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+template {
+    display: none;
+}
+
+[hidden] {
+    display: none !important;
+}
+a {
+    text-decoration: none;
+}
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+b, strong {
+  font-weight: bolder;
+}
+dfn {
+    font-style: italic;
+}
+small {
+    font-size: 80%;
+}
+sub, sup {
+    position: relative;
+    line-height: 0;
+    vertical-align: baseline;
+}
+sup {
+    top: -.5em;
+}
+sub {
+    bottom: -.25em;
+}
+img {
+    border: none;
+    vertical-align: middle;
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+figure {
+    margin: 0;
+}
+pre {
+    overflow: auto;
+    white-space: normal;
+}
+code,
+kbd,
+pre,
+samp {
+    @include font-size(1em);
+}
+button {
+    overflow: visible;
+}
+button,
+select {
+    text-transform: none;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+    margin: 0;
+    @include font-size(inherit);
+}
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    padding: 0;
+    border: none;
+}
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+}
+fieldset {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+legend {
+    padding: 0;
+    border: 0;
+}
+textarea {
+    overflow: auto;
+    resize: vertical;
+}
+table {
+    border-collapse: collapse;
+}
+td,
+th {
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: $headings-margin-bottom;
+    font-family: $headings-font-family;
+    font-weight: $headings-font-weight;
+    line-height: $headings-line-height;
+    color: $headings-color;
+}
+h1 { @include font-size($h1-font-size); }
+h2 { @include font-size($h2-font-size); }
+h3 { @include font-size($h3-font-size); }
+h4 { @include font-size($h4-font-size); }
+h5 { @include font-size($h5-font-size); }
+h6 { @include font-size($h6-font-size); }
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+iframe {
+    max-width: 100%;
+}

@@ -1,0 +1,1671 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIX - Đặt vé nhanh nhất</title>
+    <link rel="shortcut icon" href="./images/favico.ico">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <div class="logo__loading">
+        <div class="logo__loading__img">
+            <img src="./images/icons/11.png" />
+        </div>
+    </div>
+    <header id="header">
+        <div class="header">
+            <div class="header__logo image">
+                <a href="index.html"><img src="./images/icons/web-logo.png" alt="logo"></a>
+            </div>
+            <nav class="header__navbar">
+                <ul class="header__nav">
+                    <li><a class="header__nav__link" href="#">Lịch chiếu</a></li>
+                    <li><a class="header__nav__link" href="#">Cụm rạp</a></li>
+                    <li><a class="header__nav__link" href="#">Tin tức</a></li>
+                    <li><a class="header__nav__link" href="#">Ứng dụng</a></li>
+                </ul>
+            </nav>
+            <div class="header__login">
+                <a href="#"><img src="./images/icons/avatar.jpg" alt="">Đăng nhập</a>
+            </div>
+            <div class="header__location dropdown">
+                <div class="header__selected dropdown__selected">Hồ chí minh</div>
+                <ul class="header__dropdown dropdown__menu customscroll">
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section id="section-main">
+        <!-- Banner Slider -->
+        <section id="bnslide">
+            <div class="bnslide owl-carousel owl-theme">
+                <div class="bnslide__item">
+                    <div class="image">
+                        <div class="bnslide__overlay overlay">
+                            <div class="bnslide__overlay__play btn-play"><a class="bnslide_popup"
+                                    href="https://www.youtube.com/watch?v=JKNv2YfrM7Y?autoplay=1&rel=0&controls=0&showinfo=0&wmode=transparent"><i
+                                        class="fa fa-play"></i></a></div>
+                        </div>
+                        <img src="./images/bannerslide/ban-dao-15967339688532.jpg" alt="Bán đảo">
+                    </div>
+                </div>
+                <div class="bnslide__item">
+                    <div class="image">
+                        <div class="bnslide__overlay overlay">
+                            <div class="bnslide__overlay__play btn-play"><a class="bnslide_popup"
+                                    href="https://www.youtube.com/watch?v=dsOSmQl2yA8?autoplay=1&rel=0&controls=0&showinfo=0&wmode=transparent"><i
+                                        class="fa fa-play"></i></a></div>
+                        </div>
+                        <img src="./images/bannerslide/dinh-thu-oan-khuat-15967340117741.jpg" alt="Dinh thự oan khuất">
+                    </div>
+                </div>
+                <div class="bnslide__item">
+                    <div class="image">
+                        <div class="bnslide__overlay overlay">
+                            <div class="bnslide__overlay__play btn-play"><a class="bnslide_popup"
+                                    href="https://www.youtube.com/watch?v=m8y4zigvplE?autoplay=1&rel=0&controls=0&showinfo=0&wmode=transparent"><i
+                                        class="fa fa-play"></i></a></div>
+                        </div>
+                        <img src="./images/bannerslide/du-lich-chet-choc-15961360123636.jpg" alt="Du lịch chết chóc">
+                    </div>
+                </div>
+                <div class="bnslide__item">
+                    <div class="image">
+                        <div class="bnslide__overlay overlay">
+                            <div class="bnslide__overlay__play btn-play"><a class="bnslide_popup"
+                                    href="https://www.youtube.com/watch?v=m8y4zigvplE?autoplay=1&rel=0&controls=0&showinfo=0&wmode=transparent"><i
+                                        class="fa fa-play"></i></a></div>
+                        </div>
+                        <img src="./images/bannerslide/hon-ma-van-si-15967680643765.jpg" alt="Hồn ma vân sĩ">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Book Move Fast -->
+            <div class="container">
+                <div id="book__movie">
+                    <div class="bkmovie">
+                        <div class="row">
+                            <div class="col12 col-sm-4">
+                                <div class="bkmovie__item bkmovie__name dropdown">
+                                    <div class="dropdown__selected">Phim</div>
+                                    <ul class="dropdown__menu customscroll">
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col12 col-sm-2">
+                                <div class="bkmovie__item bkmovie__cimena dropdown">
+                                    <div class="dropdown__selected">Rạp</div>
+                                    <ul class="dropdown__menu customscroll">
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col12 col-sm-2">
+                                <div class="bkmovie__item bkmovie__datepick dropdown">
+                                    <div class="dropdown__selected">Ngày xem</div>
+                                    <ul class="dropdown__menu customscroll">
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col12 col-sm-2">
+                                <div class="bkmovie__item bkmovie__showtimes dropdown">
+                                    <div class="dropdown__selected">Suất chiếu</div>
+                                    <ul class="dropdown__menu customscroll">
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col12 col-sm-2">
+                                <div class="bkmovie__item bkmovie__book dropdown">
+                                    <a href="checkout.html">
+                                        <input class="btn-default" type="button" value="Mua vé ngay" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- SHOWTIMES -->
+        <section id="showstime">
+            <div class="container">
+                <ul class="nav nav-tabs" id="showstime-tab" role="tablist">
+                    <li class="nav-item">
+                    <a class="nav-link active" id="showing-tab" data-toggle="tab" href="#showing" role="tab" aria-controls="showing" aria-selected="true">Đang Chiếu</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" id="comingsoon-tab" data-toggle="tab" href="#comingsoon" role="tab" aria-controls="comingsoon" aria-selected="false">Sắp Chiếu</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="showstime-content">
+                    <div class="tab-pane fade show active " id="showing" role="tabpanel" aria-labelledby="showing-tab">
+                        <div class="showstime owl-carousel owl-theme">
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-3">
+                                        <div class="showstime__wrapper"> 
+                                            <div class="showstime__wrapper__img">   
+                                                <img src="./images/movie/sac-dep-doi-tra-false-beauty-poster.jpg">
+                                                <span class="showstime__wrapper__earlyshowing btn-default">Xuất Chiếu Sớm</span>
+                                                <div class="showstime__wrapper__prebooked">
+                                                    <img src="./images/showstime/film_type_3.png">
+                                                </div>
+                                                <div class="showstime__wrapper__overlay">
+                                                    <div class="btn-play">
+                                                        <a href="sac-dep-doi-tra.html"><i class="fa fa-play"></i></a>
+                                                    </div>                                                
+                                                </div> 
+                                                <div class="showstime__wrapper__star">
+                                                    <p>8.2</p>
+                                                    <p class="showstime__wrapper__star__list">
+                                                        <img src="./images/icons/star1.png">
+                                                        <img src="./images/icons/star1.png">
+                                                        <img src="./images/icons/star1.png">
+                                                        <img src="./images/icons/star1.png">
+                                                        <img src="./images/icons/star1.2.png">
+                                                    </p>
+                                                </div> 
+                                            </div>
+                                            <div class="showstime__wrapper__content">
+                                                <div class="showstime__content__title">
+                                                    <span class="btn-age">C13</span>
+                                                   Sắc đẹp dối trá                                                   
+                                                </div>
+                                                <div class="showstime__content__time">
+                                                    <p> 9 phút</p>
+                                                </div>
+                                                <div class="showstime__content__overlay">
+                                                    <a href="#" class="btn-default">MUA VÉ</a>
+                                                </div>    
+                                            </div>                                                                                                                 
+                                        </div>                                    
+                                    </div>
+
+                                    <div class="col-xs-12 col-sm-3">
+                                        <div class="showstime__wrapper"> 
+                                            <div class="showstime__wrapper__img">
+                                                <img src="./images/showstime/ca-sau-tu-than-black-water-abyss-c18-15964423012362_215x318.jpg">
+                                                <div class="showstime__wrapper__overlay">
+                                                    <div class="btn-play">
+                                                        <a href="#"><i class="fa fa-play"></i></a>
+                                                    </div>                                                
+                                                </div> 
+                                                <div class="showstime__wrapper__star">
+                                                    <p>8.7</p>
+                                                    <p class="showstime__wrapper__star__list">
+                                                        <img src="./images/icons/star1.png">
+                                                        <img src="./images/icons/star1.png">
+                                                        <img src="./images/icons/star1.png">
+                                                        <img src="./images/icons/star1.2.png">
+                                                    </p>
+                                                </div> 
+                                            </div>
+                                            <div class="showstime__wrapper__content">
+                                                <div class="showstime__content__title">
+                                                    <span class="btn-age">C16</span>
+                                                    Kẻ Cắp Nhân Dạng - Simon's Got a Gift - (C16)
+                                                </div>
+                                                <div class="showstime__content__time">
+                                                    <p> 120 phút</p>
+                                                </div>
+                                                <div class="showstime__content__overlay">
+                                                    <a href="#" class="btn-default">MUA VÉ</a>
+                                                </div>    
+                                            </div>                                                                                                                 
+                                        </div>                                    
+                                    </div>
+
+                                    <div class="col-xs-12 col-sm-3">
+                                        <div class="showstime__wrapper"> 
+                                            <div class="showstime__wrapper__img">
+                                                <img src="./images/showstime/ham-quy-behind-you-c18-15976394035712_215x318.jpg">
+                                                <div class="showstime__wrapper__prebooked">
+                                                    <img src="./images/showstime/film_type_1.png">
+                                                </div>
+                                                <div class="showstime__wrapper__overlay">
+                                                    <div class="btn-play">
+                                                        <a href="#"><i class="fa fa-play"></i></a>
+                                                    </div>                                                
+                                                </div> 
+                                                <div class="showstime__wrapper__star">
+                                                    <p>9.2</p>
+                                                    <p class="showstime__wrapper__star__list">
+                                                        <img src="./images/icons/star1.png">
+                                                        <img src="./images/icons/star1.png">
+                                                        <img src="./images/icons/star1.2.png">
+                                                    </p>
+                                                </div> 
+                                            </div>
+                                            <div class="showstime__wrapper__content">
+                                                <div class="showstime__content__title">
+                                                    <span class="btn-age">C18</span>
+                                                    Hầm Quỷ - Behind You - (C18)                                               
+                                                </div>
+                                                <div class="showstime__content__time">
+                                                    <p> 86 phút</p>
+                                                </div>
+                                                <div class="showstime__content__overlay">
+                                                    <a href="#" class="btn-default">MUA VÉ</a>
+                                                </div>    
+                                            </div>                                                                                                                 
+                                        </div>                                    
+                                    </div>
+                                
+                                    <div class="col-xs-12 col-sm-3">
+                                        <div class="showstime__wrapper"> 
+                                            <div class="showstime__wrapper__img">
+                                                <img src="./images/showstime/minh-oi-xin-dung-qua-song-my-love-don-t-cross-that-river-p-15976607680227_215x318.jpg">
+                                                <span class="showstime__wrapper__earlyshowing btn-default">Xuất Chiếu Sớm</span>
+                                                <div class="showstime__wrapper__overlay">
+                                                    <div class="btn-play">
+                                                        <a href="#"><i class="fa fa-play"></i></a>
+                                                    </div>                                                
+                                                </div> 
+                                                <div class="showstime__wrapper__star">
+                                                    <p>5.9</p>
+                                                    <p class="showstime__wrapper__star__list">
+                                                        <img src="./images/icons/star1.png">
+                                                        <img src="./images/icons/star1.png">
+                                                        <img src="./images/icons/star1.2.png">
+                                                    </p>
+                                                </div> 
+                                            </div>
+                                            <div class="showstime__wrapper__content">
+                                                <div class="showstime__content__title">
+                                                    <span class="btn-age btn-age-general">P</span>
+                                                    Mình ơi, Xin Đừng Qua Sông - My Love, Don't...
+                                                </div>
+                                                <div class="showstime__content__time">
+                                                    <p>86 phút</p>
+                                                </div>
+                                                <div class="showstime__content__overlay">
+                                                    <a href="#" class="btn-default">MUA VÉ</a>
+                                                </div>    
+                                            </div>                                                                                                                 
+                                        </div>                                    
+                                    </div>                             
+                                </div>
+                            
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-3">
+                                        <div class="showstime__wrapper"> 
+                                            <div class="showstime__wrapper__img">
+                                                <img src="./images/showstime/ke-an-nap-you-re-not-alone-c16-15966142184253_215x318.jpg">
+                                                <div class="showstime__wrapper__overlay">
+                                                    <div class="btn-play">
+                                                        <a href="#"><i class="fa fa-play"></i></a>
+                                                    </div>                                                
+                                                </div> 
+                                                <div class="showstime__wrapper__star">
+                                                    <p>8.2</p>
+                                                    <p class="showstime__wrapper__star__list">
+                                                        <img src="./images/icons/star1.png">
+                                                        <img src="./images/icons/star1.png">
+                                                        <img src="./images/icons/star1.png">
+                                                        <img src="./images/icons/star1.png">
+                                                        <img src="./images/icons/star1.2.png">
+                                                    </p>
+                                                </div> 
+                                            </div>
+                                            <div class="showstime__wrapper__content">
+                                                <div class="showstime__content__title">
+                                                    <span class="btn-age">C16</span>
+                                                    Kẻ Ẩn Nấp - (C16)                                                   
+                                                </div>
+                                                <div class="showstime__content__time">
+                                                    <p> 100 phút</p>
+                                                </div>
+                                                <div class="showstime__content__overlay">
+                                                    <a href="#" class="btn-default">MUA VÉ</a>
+                                                </div>    
+                                            </div>                                                                                                                 
+                                        </div>                                    
+                                    </div>
+
+                                    <div class="col-xs-12 col-sm-3">
+                                        <div class="showstime__wrapper"> 
+                                            <div class="showstime__wrapper__img">
+                                                <img src="./images/showstime/mai-ben-em-endless-c13-15964418945795_215x318.jpg">
+                                                <div class="showstime__wrapper__overlay">
+                                                    <div class="btn-play">
+                                                        <a href="#"><i class="fa fa-play"></i></a>
+                                                    </div>                                                
+                                                </div> 
+                                                <div class="showstime__wrapper__star">
+                                                    <p>5.9</p>
+                                                    <p class="showstime__wrapper__star__list">
+                                                        <img src="./images/icons/star1.png">
+                                                        <img src="./images/icons/star1.png">
+                                                        <img src="./images/icons/star1.2.png">
+                                                    </p>
+                                                </div> 
+                                            </div>
+                                            <div class="showstime__wrapper__content">
+                                                <div class="showstime__content__title">
+                                                    <span class="btn-age">C13</span>
+                                                    Mãi Bên Em - Endless - (C13)
+                                                </div>
+                                                <div class="showstime__content__time">
+                                                    <p> 100 phút</p>
+                                                </div>
+                                                <div class="showstime__content__overlay">
+                                                    <a href="#" class="btn-default">MUA VÉ</a>
+                                                </div>    
+                                            </div>                                                                                                                 
+                                        </div>                                    
+                                    </div>
+
+                                    <div class="col-xs-12 col-sm-3">
+                                        <div class="showstime__wrapper"> 
+                                            <div class="showstime__wrapper__img">
+                                                <img src="./images/showstime/scoob-15940967705047_215x318.jpg">
+                                                <div class="showstime__wrapper__overlay">
+                                                    <div class="btn-play">
+                                                        <a href="#"><i class="fa fa-play"></i></a>
+                                                    </div>                                                
+                                                </div> 
+                                                <div class="showstime__wrapper__star">
+                                                    <p>9</p>
+                                                    <p class="showstime__wrapper__star__list">
+                                                        <img src="./images/icons/star1.png">
+                                                        <img src="./images/icons/star1.png">
+                                                        <img src="./images/icons/star1.2.png">
+                                                    </p>
+                                                </div> 
+                                            </div>
+                                            <div class="showstime__wrapper__content">
+                                                <div class="showstime__content__title">
+                                                    <span class="btn-age btn-age-general">P</span>
+                                                    Cuộc Phiêu Lưu Của Scooby-doo! - Scoob! - (P)
+                                                </div>
+                                                <div class="showstime__content__time">
+                                                    <p>86 phút</p>
+                                                </div>
+                                                <div class="showstime__content__overlay">
+                                                    <a href="#" class="btn-default">MUA VÉ</a>
+                                                </div>    
+                                            </div>                                                                                                                 
+                                        </div>                                    
+                                    </div>
+                                
+                                    <div class="col-xs-12 col-sm-3">
+                                        <div class="showstime__wrapper"> 
+                                            <div class="showstime__wrapper__img">
+                                                <img src="./images/showstime/minh-oi-xin-dung-qua-song-my-love-don-t-cross-that-river-p-15976607680227_215x318.jpg">
+                                                <div class="showstime__wrapper__overlay">
+                                                    <div class="btn-play">
+                                                        <a href="#"><i class="fa fa-play"></i></a>
+                                                    </div>                                                
+                                                </div> 
+                                                <div class="showstime__wrapper__star">
+                                                    <p>5.9</p>
+                                                    <p class="showstime__wrapper__star__list">
+                                                        <img src="./images/icons/star1.png">
+                                                        <img src="./images/icons/star1.png">
+                                                        <img src="./images/icons/star1.2.png">
+                                                    </p>
+                                                </div> 
+                                            </div>
+                                            <div class="showstime__wrapper__content">
+                                                <div class="showstime__content__title">
+                                                    <span class="btn-age">C18</span>
+                                                    Mình ơi, Xin Đừng Qua Sông - My Love, Don't...
+                                                </div>
+                                                <div class="showstime__content__time">
+                                                    <p> 100 phút</p>
+                                                </div>
+                                                <div class="showstime__content__overlay">
+                                                    <a href="#" class="btn-default">MUA VÉ</a>
+                                                </div>    
+                                            </div>                                                                                                                 
+                                        </div>                                    
+                                    </div>                             
+                                </div>
+                            </div>
+                        
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-3">
+                                        <div class="showstime__wrapper"> 
+                                            <div class="showstime__wrapper__img">
+                                                <img src="./images/showstime/diep-vien-sieu-lay-my-spy-p-15959969936666_215x318.jpg">
+                                                <div class="showstime__wrapper__overlay">
+                                                    <div class="btn-play">
+                                                        <a href="#"><i class="fa fa-play"></i></a>
+                                                    </div>                                                
+                                                </div> 
+                                                <div class="showstime__wrapper__star">
+                                                    <p>8.2</p>
+                                                    <p class="showstime__wrapper__star__list">
+                                                        <img src="./images/icons/star1.png">
+                                                        <img src="./images/icons/star1.png">
+                                                        <img src="./images/icons/star1.png">
+                                                        <img src="./images/icons/star1.png">
+                                                        <img src="./images/icons/star1.2.png">
+                                                    </p>
+                                                </div> 
+                                            </div>
+                                            <div class="showstime__wrapper__content">
+                                                <div class="showstime__content__title">
+                                                    <span class="btn-age">C13</span>
+                                                    Điệp Viên Siêu Lầy - My Spy - (13)                                                   
+                                                </div>
+                                                <div class="showstime__content__time">
+                                                    <p> 100 phút</p>
+                                                </div>
+                                                <div class="showstime__content__overlay">
+                                                    <a href="#" class="btn-default">MUA VÉ</a>
+                                                </div>    
+                                            </div>                                                                                                                 
+                                        </div>                                    
+                                    </div>
+
+                                    <div class="col-xs-12 col-sm-3">
+                                        <div class="showstime__wrapper"> 
+                                            <div class="showstime__wrapper__img">
+                                                <img src="./images/showstime/ca-sau-tu-than-black-water-abyss-c18-15964423012362_215x318.jpg">
+                                                <div class="showstime__wrapper__overlay">
+                                                    <div class="btn-play">
+                                                        <a href="#"><i class="fa fa-play"></i></a>
+                                                    </div>                                                
+                                                </div> 
+                                                <div class="showstime__wrapper__star">
+                                                    <p>5.9</p>
+                                                    <p class="showstime__wrapper__star__list">
+                                                        <img src="./images/icons/star1.png">
+                                                        <img src="./images/icons/star1.png">
+                                                        <img src="./images/icons/star1.2.png">
+                                                    </p>
+                                                </div> 
+                                            </div>
+                                            <div class="showstime__wrapper__content">
+                                                <div class="showstime__content__title">
+                                                    <span class="btn-age">C16</span>
+                                                    Kẻ Cắp Nhân Dạng - Simon's Got a Gift - (C16)
+                                                </div>
+                                                <div class="showstime__content__time">
+                                                    <p> 100 phút</p>
+                                                </div>
+                                                <div class="showstime__content__overlay">
+                                                    <a href="#" class="btn-default">MUA VÉ</a>
+                                                </div>    
+                                            </div>                                                                                                                 
+                                        </div>                                    
+                                    </div>
+
+                                    <div class="col-xs-12 col-sm-3">
+                                        <div class="showstime__wrapper"> 
+                                            <div class="showstime__wrapper__img">
+                                                <img src="./images/showstime/ham-quy-behind-you-c18-15976394035712_215x318.jpg">
+                                                <div class="showstime__wrapper__overlay">
+                                                    <div class="btn-play">
+                                                        <a href="#"><i class="fa fa-play"></i></a>
+                                                    </div>                                                
+                                                </div> 
+                                                <div class="showstime__wrapper__star">
+                                                    <p>5.9</p>
+                                                    <p class="showstime__wrapper__star__list">
+                                                        <img src="./images/icons/star1.png">
+                                                        <img src="./images/icons/star1.png">
+                                                        <img src="./images/icons/star1.2.png">
+                                                    </p>
+                                                </div> 
+                                            </div>
+                                            <div class="showstime__wrapper__content">
+                                                <div class="showstime__content__title">
+                                                    <span class="btn-age">C18</span>
+                                                    Hầm Quỷ - Behind You - (C18)                                               
+                                                </div>
+                                                <div class="showstime__content__time">
+                                                    <p> 86 phút</p>
+                                                </div>
+                                                <div class="showstime__content__overlay">
+                                                    <a href="#" class="btn-default">MUA VÉ</a>
+                                                </div>    
+                                            </div>                                                                                                                 
+                                        </div>                                    
+                                    </div>
+                                
+                                    <div class="col-xs-12 col-sm-3">
+                                        <div class="showstime__wrapper"> 
+                                            <div class="showstime__wrapper__img">
+                                                <img src="./images/showstime/minh-oi-xin-dung-qua-song-my-love-don-t-cross-that-river-p-15976607680227_215x318.jpg">
+                                                <div class="showstime__wrapper__overlay">
+                                                    <div class="btn-play">
+                                                        <a href="#"><i class="fa fa-play"></i></a>
+                                                    </div>                                                
+                                                </div> 
+                                                <div class="showstime__wrapper__star">
+                                                    <p>5.9</p>
+                                                    <p class="showstime__wrapper__star__list">
+                                                        <img src="./images/icons/star1.png">
+                                                        <img src="./images/icons/star1.png">
+                                                        <img src="./images/icons/star1.2.png">
+                                                    </p>
+                                                </div> 
+                                            </div>
+                                            <div class="showstime__wrapper__content">
+                                                <div class="showstime__content__title">
+                                                    <span class="btn-age">C18</span>
+                                                    Mình ơi, Xin Đừng Qua Sông - My Love, Don't...
+                                                </div>
+                                                <div class="showstime__content__time">
+                                                    <p>86 phút</p>
+                                                </div>
+                                                <div class="showstime__content__overlay">
+                                                    <a href="#" class="btn-default">MUA VÉ</a>
+                                                </div>    
+                                            </div>                                                                                                                 
+                                        </div>                                    
+                                    </div>                             
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-3">
+                                        <div class="showstime__wrapper"> 
+                                            <div class="showstime__wrapper__img">
+                                                <img src="./images/showstime/ke-an-nap-you-re-not-alone-c16-15966142184253_215x318.jpg">
+                                                <div class="showstime__wrapper__overlay">
+                                                    <div class="btn-play">
+                                                        <a href="#"><i class="fa fa-play"></i></a>
+                                                    </div>                                                
+                                                </div> 
+                                                <div class="showstime__wrapper__star">
+                                                    <p>8.2</p>
+                                                    <p class="showstime__wrapper__star__list">
+                                                        <img src="./images/icons/star1.png">
+                                                        <img src="./images/icons/star1.png">
+                                                        <img src="./images/icons/star1.png">
+                                                        <img src="./images/icons/star1.png">
+                                                        <img src="./images/icons/star1.2.png">
+                                                    </p>
+                                                </div> 
+                                            </div>
+                                            <div class="showstime__wrapper__content">
+                                                <div class="showstime__content__title">
+                                                    <span class="btn-age">C16</span>
+                                                    Kẻ Ẩn Nấp - (C16)                                                   
+                                                </div>
+                                                <div class="showstime__content__time">
+                                                    <p> 100 phút</p>
+                                                </div>
+                                                <div class="showstime__content__overlay">
+                                                    <a href="#" class="btn-default">MUA VÉ</a>
+                                                </div>    
+                                            </div>                                                                                                                 
+                                        </div>                                    
+                                    </div>
+
+                                    <div class="col-xs-12 col-sm-3">
+                                        <div class="showstime__wrapper"> 
+                                            <div class="showstime__wrapper__img">
+                                                <img src="./images/showstime/mai-ben-em-endless-c13-15964418945795_215x318.jpg">
+                                                <div class="showstime__wrapper__overlay">
+                                                    <div class="btn-play">
+                                                        <a href="#"><i class="fa fa-play"></i></a>
+                                                    </div>                                                
+                                                </div> 
+                                                <div class="showstime__wrapper__star">
+                                                    <p>5.9</p>
+                                                    <p class="showstime__wrapper__star__list">
+                                                        <img src="./images/icons/star1.png">
+                                                        <img src="./images/icons/star1.png">
+                                                        <img src="./images/icons/star1.2.png">
+                                                    </p>
+                                                </div> 
+                                            </div>
+                                            <div class="showstime__wrapper__content">
+                                                <div class="showstime__content__title">
+                                                    <span class="btn-age">C13</span>
+                                                    Mãi Bên Em - Endless - (C13)
+                                                </div>
+                                                <div class="showstime__content__time">
+                                                    <p> 100 phút</p>
+                                                </div>
+                                                <div class="showstime__content__overlay">
+                                                    <a href="#" class="btn-default">MUA VÉ</a>
+                                                </div>    
+                                            </div>                                                                                                                 
+                                        </div>                                    
+                                    </div>
+
+                                    <div class="col-xs-12 col-sm-3">
+                                        <div class="showstime__wrapper"> 
+                                            <div class="showstime__wrapper__img">
+                                                <img src="./images/showstime/scoob-15940967705047_215x318.jpg">
+                                                <div class="showstime__wrapper__overlay">
+                                                    <div class="btn-play">
+                                                        <a href="#"><i class="fa fa-play"></i></a>
+                                                    </div>                                                
+                                                </div> 
+                                                <div class="showstime__wrapper__star">
+                                                    <p>9</p>
+                                                    <p class="showstime__wrapper__star__list">
+                                                        <img src="./images/icons/star1.png">
+                                                        <img src="./images/icons/star1.png">
+                                                        <img src="./images/icons/star1.2.png">
+                                                    </p>
+                                                </div> 
+                                            </div>
+                                            <div class="showstime__wrapper__content">
+                                                <div class="showstime__content__title">
+                                                    <span class="btn-age btn-age-general">P</span>
+                                                    Cuộc Phiêu Lưu Của Scooby-doo! - Scoob! - (P)
+                                                </div>
+                                                <div class="showstime__content__time">
+                                                    <p>86 phút</p>
+                                                </div>
+                                                <div class="showstime__content__overlay">
+                                                    <a href="#" class="btn-default">MUA VÉ</a>
+                                                </div>    
+                                            </div>                                                                                                                 
+                                        </div>                                    
+                                    </div>
+                                
+                                    <div class="col-xs-12 col-sm-3">
+                                        <div class="showstime__wrapper"> 
+                                            <div class="showstime__wrapper__img">
+                                                <img src="./images/showstime/minh-oi-xin-dung-qua-song-my-love-don-t-cross-that-river-p-15976607680227_215x318.jpg">
+                                                <div class="showstime__wrapper__overlay">
+                                                    <div class="btn-play">
+                                                        <a href="#"><i class="fa fa-play"></i></a>
+                                                    </div>                                                
+                                                </div> 
+                                                <div class="showstime__wrapper__star">
+                                                    <p>5.9</p>
+                                                    <p class="showstime__wrapper__star__list">
+                                                        <img src="./images/icons/star1.png">
+                                                        <img src="./images/icons/star1.png">
+                                                        <img src="./images/icons/star1.2.png">
+                                                    </p>
+                                                </div> 
+                                            </div>
+                                            <div class="showstime__wrapper__content">
+                                                <div class="showstime__content__title">
+                                                    <span class="btn-age">C18</span>
+                                                    Mình ơi, Xin Đừng Qua Sông - My Love, Don't...
+                                                </div>
+                                                <div class="showstime__content__time">
+                                                    <p> 100 phút</p>
+                                                </div>
+                                                <div class="showstime__content__overlay">
+                                                    <a href="#" class="btn-default">MUA VÉ</a>
+                                                </div>    
+                                            </div>                                                                                                                 
+                                        </div>                                    
+                                    </div>                             
+                                </div>                                           
+                            </div>                      
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="comingsoon" role="tabpanel" aria-labelledby="comingsoon-tab">
+                        <div class="showstime owl-carousel owl-theme">
+                            <div class="item">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-3">
+                                            <div class="showstime__wrapper"> 
+                                                <div class="showstime__wrapper__img">
+                                                    <img src="./images/showstime/chong-nguoi-ta-c18-15956920983516_215x318.jpg">
+                                                    <span class="showstime__wrapper__publicshowing btn-default">21/08</span>
+                                                    <div class="showstime__wrapper__overlay">
+                                                        <div class="btn-play">
+                                                            <a href="#"><i class="fa fa-play"></i></a>
+                                                        </div>                                                
+                                                    </div> 
+                                                </div>
+                                                <div class="showstime__wrapper__content">
+                                                    <div class="showstime__content__title">
+                                                        <span class="btn-age">C18</span>
+                                                        Chồng Người Ta - (C18)                                                   
+                                                    </div>
+                                                    <div class="showstime__content__time">
+                                                        <p>90 phút</p>
+                                                    </div>                                              
+                                                </div>                                                                                                                 
+                                            </div>                                    
+                                        </div>
+                                        <div class="col-xs-12 col-sm-3">
+                                            <div class="showstime__wrapper"> 
+                                                <div class="showstime__wrapper__img">
+                                                    <img src="./images/showstime/the-hitman-s-wife-s-bodyguard-15956913075013_215x318.jpg">
+                                                    <span class="showstime__wrapper__publicshowing btn-default">28/08</span>
+                                                    <div class="showstime__wrapper__overlay">
+                                                        <div class="btn-play">
+                                                            <a href="#"><i class="fa fa-play"></i></a>
+                                                        </div>                                                
+                                                    </div> 
+                                                </div>
+                                                <div class="showstime__wrapper__content">
+                                                    <div class="showstime__content__title">
+                                                        <span class="btn-age btn-age-general">P</span>
+                                                        The Hitman's Wife's Bodyguard                                                   
+                                                    </div>
+                                                    <div class="showstime__content__time">
+                                                        <p> 100 phút</p>
+                                                    </div>   
+                                                </div>                                                                                                                 
+                                            </div>                                    
+                                        </div>
+                                        <div class="col-xs-12 col-sm-3">
+                                            <div class="showstime__wrapper"> 
+                                                <div class="showstime__wrapper__img">
+                                                    <img src="./images/showstime/tiec-trang-mau-blood-moon-party-15970436933821_215x318.jpg">
+                                                    <span class="showstime__wrapper__publicshowing btn-default">28/08</span>
+                                                    <div class="showstime__wrapper__overlay">
+                                                        <div class="btn-play">
+                                                            <a href="#"><i class="fa fa-play"></i></a>
+                                                        </div>                                                
+                                                    </div> 
+                                                </div>
+                                                <div class="showstime__wrapper__content">
+                                                    <div class="showstime__content__title">
+                                                        <span class="btn-age btn-age-general">P</span>
+                                                        Tiệc Trăng Máu - Blood Moon Party                                                  
+                                                    </div>
+                                                    <div class="showstime__content__time">
+                                                        <p> 100 phút</p>
+                                                    </div>                                              
+                                                </div>                                                                                                                 
+                                            </div>                                    
+                                        </div>
+                                        <div class="col-xs-12 col-sm-3">
+                                            <div class="showstime__wrapper"> 
+                                                <div class="showstime__wrapper__img">
+                                                    <img src="./images/showstime/tenet-15768107031731_215x318.jpg">
+                                                    <span class="showstime__wrapper__publicshowing btn-default">28/08</span>
+                                                    <div class="showstime__wrapper__prebooked">
+                                                        <img src="./images/showstime/film_type_3.png">
+                                                    </div>
+                                                    <div class="showstime__wrapper__overlay">
+                                                        <div class="btn-play">
+                                                            <a href="#"><i class="fa fa-play"></i></a>
+                                                        </div>                                                
+                                                    </div> 
+                                                </div>
+                                                <div class="showstime__wrapper__content">
+                                                    <div class="showstime__content__title">
+                                                        <span class="btn-age btn-age-general">P</span>
+                                                        Tenet - (P)                                      
+                                                    </div>
+                                                    <div class="showstime__content__time">
+                                                        <p> 120 phút</p>
+                                                    </div>                                              
+                                                </div>                                                                                                                 
+                                            </div>                                    
+                                        </div>                                                        
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-3">
+                                            <div class="showstime__wrapper"> 
+                                                <div class="showstime__wrapper__img">
+                                                    <img src="./images/showstime/nhung-co-vo-hanh-dong-c13-15915148162466_215x318.jpg">
+                                                    <span class="showstime__wrapper__publicshowing btn-default">15/09</span>
+                                                    <div class="showstime__wrapper__overlay">
+                                                        <div class="btn-play">
+                                                            <a href="#"><i class="fa fa-play"></i></a>
+                                                        </div>                                                
+                                                    </div> 
+                                                </div>
+                                                <div class="showstime__wrapper__content">
+                                                    <div class="showstime__content__title">
+                                                        <span class="btn-age">C13</span>
+                                                        Những Cô Vợ Hành Động - (C13)                                    
+                                                    </div>
+                                                    <div class="showstime__content__time">
+                                                        <p> 100 phút</p>
+                                                    </div>                                              
+                                                </div>                                                                                                                 
+                                            </div>                                    
+                                        </div>  
+                                        <div class="col-xs-12 col-sm-3">
+                                            <div class="showstime__wrapper"> 
+                                                <div class="showstime__wrapper__img">
+                                                    <img src="./images/showstime/rom-c16-15929885200304_215x318.jpg">
+                                                    <span class="showstime__wrapper__publicshowing btn-default">25/08</span>
+                                                    <div class="showstime__wrapper__overlay">
+                                                        <div class="btn-play">
+                                                            <a href="#"><i class="fa fa-play"></i></a>
+                                                        </div>                                                
+                                                    </div> 
+                                                </div>
+                                                <div class="showstime__wrapper__content">
+                                                    <div class="showstime__content__title">
+                                                        <span class="btn-age">C18</span>
+                                                        Ròm - (C18)                                    
+                                                    </div>
+                                                    <div class="showstime__content__time">
+                                                        <p>91 phút</p>
+                                                    </div>                                              
+                                                </div>                                                                                                                 
+                                            </div>                                    
+                                        </div>
+                                        <div class="col-xs-12 col-sm-3">
+                                            <div class="showstime__wrapper"> 
+                                                <div class="showstime__wrapper__img">
+                                                    <img src="./images/showstime/ti-hon-hau-dau-the-elfkins-baking-a-difference-p-15961040339604_215x318.jpg">
+                                                    <span class="showstime__wrapper__publicshowing btn-default">28/08</span>                                            
+                                                    <div class="showstime__wrapper__overlay">
+                                                        <div class="btn-play">
+                                                            <a href="#"><i class="fa fa-play"></i></a>
+                                                        </div>                                                
+                                                    </div> 
+                                                </div>
+                                                <div class="showstime__wrapper__content">
+                                                    <div class="showstime__content__title">
+                                                        <span class="btn-age btn-age-general">P</span>
+                                                        Tí Hon Hậu Đậu - The Elfkins Baking a Difference...                                  
+                                                    </div>
+                                                    <div class="showstime__content__time">
+                                                        <p> 120 phút</p>
+                                                    </div>                                              
+                                                </div>                                                                                                                 
+                                            </div>                                    
+                                        </div> 
+                                        <div class="col-xs-12 col-sm-3">
+                                            <div class="showstime__wrapper"> 
+                                                <div class="showstime__wrapper__img">
+                                                    <img src="./images/showstime/di-nhan-the-he-moi-the-new-mutants-15955874609604_215x318.jpg">
+                                                    <span class="showstime__wrapper__publicshowing btn-default">02/09</span>                                            
+                                                    <div class="showstime__wrapper__overlay">
+                                                        <div class="btn-play">
+                                                            <a href="#"><i class="fa fa-play"></i></a>
+                                                        </div>                                                
+                                                    </div> 
+                                                </div>
+                                                <div class="showstime__wrapper__content">
+                                                    <div class="showstime__content__title">
+                                                        <span class="btn-age btn-age-general">P</span>
+                                                        Dị Nhân Thế Hệ Mới - The New Mutants - (P)                                
+                                                    </div>
+                                                    <div class="showstime__content__time">
+                                                        <p>90 phút</p>
+                                                    </div>                                              
+                                                </div>                                                                                                                 
+                                            </div>                                    
+                                        </div> 
+                                    </div>  
+                                </div>                                           
+                            </div> 
+                            <div class="item">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-3">
+                                            <div class="showstime__wrapper"> 
+                                                <div class="showstime__wrapper__img">
+                                                    <img src="./images/showstime/chong-nguoi-ta-c18-15956920983516_215x318.jpg">
+                                                    <span class="showstime__wrapper__publicshowing btn-default">21/08</span>
+                                                    <div class="showstime__wrapper__overlay">
+                                                        <div class="btn-play">
+                                                            <a href="#"><i class="fa fa-play"></i></a>
+                                                        </div>                                                
+                                                    </div> 
+                                                </div>
+                                                <div class="showstime__wrapper__content">
+                                                    <div class="showstime__content__title">
+                                                        <span class="btn-age">C18</span>
+                                                        Chồng Người Ta - (C18)                                                   
+                                                    </div>
+                                                    <div class="showstime__content__time">
+                                                        <p>90 phút</p>
+                                                    </div>                                              
+                                                </div>                                                                                                                 
+                                            </div>                                    
+                                        </div>
+                                        <div class="col-xs-12 col-sm-3">
+                                            <div class="showstime__wrapper"> 
+                                                <div class="showstime__wrapper__img">
+                                                    <img src="./images/showstime/the-hitman-s-wife-s-bodyguard-15956913075013_215x318.jpg">
+                                                    <span class="showstime__wrapper__publicshowing btn-default">28/08</span>
+                                                    <div class="showstime__wrapper__overlay">
+                                                        <div class="btn-play">
+                                                            <a href="#"><i class="fa fa-play"></i></a>
+                                                        </div>                                                
+                                                    </div> 
+                                                </div>
+                                                <div class="showstime__wrapper__content">
+                                                    <div class="showstime__content__title">
+                                                        <span class="btn-age btn-age-general">P</span>
+                                                        The Hitman's Wife's Bodyguard                                                   
+                                                    </div>
+                                                    <div class="showstime__content__time">
+                                                        <p> 100 phút</p>
+                                                    </div>   
+                                                </div>                                                                                                                 
+                                            </div>                                    
+                                        </div>
+                                        <div class="col-xs-12 col-sm-3">
+                                            <div class="showstime__wrapper"> 
+                                                <div class="showstime__wrapper__img">
+                                                    <img src="./images/showstime/tiec-trang-mau-blood-moon-party-15970436933821_215x318.jpg">
+                                                    <span class="showstime__wrapper__publicshowing btn-default">28/08</span>
+                                                    <div class="showstime__wrapper__overlay">
+                                                        <div class="btn-play">
+                                                            <a href="#"><i class="fa fa-play"></i></a>
+                                                        </div>                                                
+                                                    </div> 
+                                                </div>
+                                                <div class="showstime__wrapper__content">
+                                                    <div class="showstime__content__title">
+                                                        <span class="btn-age btn-age-general">P</span>
+                                                        Tiệc Trăng Máu - Blood Moon Party                                                  
+                                                    </div>
+                                                    <div class="showstime__content__time">
+                                                        <p> 100 phút</p>
+                                                    </div>                                              
+                                                </div>                                                                                                                 
+                                            </div>                                    
+                                        </div>
+                                        <div class="col-xs-12 col-sm-3">
+                                            <div class="showstime__wrapper"> 
+                                                <div class="showstime__wrapper__img">
+                                                    <img src="./images/showstime/tenet-15768107031731_215x318.jpg">
+                                                    <span class="showstime__wrapper__publicshowing btn-default">28/08</span>
+                                                    <div class="showstime__wrapper__prebooked">
+                                                        <img src="./images/showstime/film_type_3.png">
+                                                    </div>
+                                                    <div class="showstime__wrapper__overlay">
+                                                        <div class="btn-play">
+                                                            <a href="#"><i class="fa fa-play"></i></a>
+                                                        </div>                                                
+                                                    </div> 
+                                                </div>
+                                                <div class="showstime__wrapper__content">
+                                                    <div class="showstime__content__title">
+                                                        <span class="btn-age btn-age-general">P</span>
+                                                        Tenet - (P)                                      
+                                                    </div>
+                                                    <div class="showstime__content__time">
+                                                        <p> 120 phút</p>
+                                                    </div>                                              
+                                                </div>                                                                                                                 
+                                            </div>                                    
+                                        </div>                                                        
+                                    </div>
+                                    <div class="row">                               
+                                        <div class="col-xs-12 col-sm-3">
+                                            <div class="showstime__wrapper"> 
+                                                <div class="showstime__wrapper__img">
+                                                    <img src="./images/showstime/ti-hon-hau-dau-the-elfkins-baking-a-difference-p-15961040339604_215x318.jpg">
+                                                    <span class="showstime__wrapper__publicshowing btn-default">28/08</span>                                            
+                                                    <div class="showstime__wrapper__overlay">
+                                                        <div class="btn-play">
+                                                            <a href="#"><i class="fa fa-play"></i></a>
+                                                        </div>                                                
+                                                    </div> 
+                                                </div>
+                                                <div class="showstime__wrapper__content">
+                                                    <div class="showstime__content__title">
+                                                        <span class="btn-age btn-age-general">P</span>
+                                                        Tí Hon Hậu Đậu - The Elfkins Baking a Difference...                                  
+                                                    </div>
+                                                    <div class="showstime__content__time">
+                                                        <p> 120 phút</p>
+                                                    </div>                                              
+                                                </div>                                                                                                                 
+                                            </div>                                    
+                                        </div> 
+                                        <div class="col-xs-12 col-sm-3">
+                                            <div class="showstime__wrapper"> 
+                                                <div class="showstime__wrapper__img">
+                                                    <img src="./images/showstime/di-nhan-the-he-moi-the-new-mutants-15955874609604_215x318.jpg">
+                                                    <span class="showstime__wrapper__publicshowing btn-default">02/09</span>                                            
+                                                    <div class="showstime__wrapper__overlay">
+                                                        <div class="btn-play">
+                                                            <a href="#"><i class="fa fa-play"></i></a>
+                                                        </div>                                                
+                                                    </div> 
+                                                </div>
+                                                <div class="showstime__wrapper__content">
+                                                    <div class="showstime__content__title">
+                                                        <span class="btn-age btn-age-general">P</span>
+                                                        Dị Nhân Thế Hệ Mới - The New Mutants - (P)                                
+                                                    </div>
+                                                    <div class="showstime__content__time">
+                                                        <p>90 phút</p>
+                                                    </div>                                              
+                                                </div>                                                                                                                 
+                                            </div>                                    
+                                        </div> 
+                                    </div> 
+                                </div>                                            
+                            </div>                                      
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Movie Schedule -->
+        <section id="mvschedule">
+            <div class="container">
+                <div class="mvschedule">
+                    <div class="row">
+                        <ul class="nav-tabs customscroll mvschedule__tab col-12 col-sm-2" id="mvschedule-tab" role="tablist">
+                        </ul>
+                        <div class="tab-content mvschedule__tab__child col-12 col-sm-10" id="mvschedule-tab-content">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- HOT NEWS -->
+        <section class="hotnews" id="hotnews">
+            <ul class="nav nav-tabs hotnews__tab" id="hotnews-tab" role="tablist">
+                <li class="nav-item hotnews__tab__item"><a class="hotnews__tab__link nav-link active" id="dien-anh-tab" data-toggle="tab" href="#dien-anh" role="tab" aria-controls="dien-anh" aria-selected="true">Điện Ảnh 24h</a></li>
+                <li class="nav-item hotnews__tab__item"><a class="hotnews__tab__link nav-link" id="review-tab" data-toggle="tab" href="#review" role="tab" aria-controls="review" aria-selected="false">Review</a></li>
+                <li class="nav-item hotnews__tab__item"><a class="hotnews__tab__link nav-link" id="khuyen-mai-tab" data-toggle="tab" href="#khuyen-mai" role="tab" aria-controls="khuyen-mai" aria-selected="false">Khuyễn Mãi</a></li>
+            </ul>
+            <div class="tab-content" id="hotnews-tab-content">
+                <div class="tab-pane fade active show" id="dien-anh" role="tabpanel" aria-labelledby="dien-anh-tab">
+                    <div class="container">
+                        <div class="hotnews__content">
+                            <div class="row">
+                                <div class="col-12 col-sm-6">
+                                    <div class="hotnews__item">
+                                        <div class="hotnews__item__img">
+                                            <a href="#"><img src="./images/news/da-n-my-nhan-trong-the-gio-i-die-n-a-nh-cu-a-qua-i-kie-t-christopher-nolan-15970503918450.jpg" /> </a>
+                                        </div>
+                                        <div class="hotnews__item__content">
+                                            <p class="news-title"><a href="#">Dàn mỹ nhân trong thế giới điện ảnh của quái kiệt Christopher Nolan</a></p>
+                                            <p class="news-description">
+                                                Làng phim đương đại những năm qua chứng kiến sự lên ngôi của cái tên Christopher Nolan, được biết tới như một trong những đạo diễn thiên tài với khả năng tạo ra siêu phẩm bạc tỉ chất lượng.
+                                            </p>
+                                        </div>
+                                        <div class="social">
+                                            <div class="social-icon social__like">
+                                                <img src="./images/icons/like.png" /> <span>0</span>
+                                            </div>
+                                            <div class="social-icon socail__comments">
+                                                    <img src="./images/icons/comment.png" /> <span>0</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="hotnews__item">
+                                        <div class="hotnews__item__img">
+                                            <a href="#"><img src="./images/news/truy-cung-giet-tan-cuoc-tai-ngo-cua-hai-ong-hoang-phong-ve-xu-han-15966122361852.jpg" /> </a>
+                                        </div>
+                                        <div class="hotnews__item__content">
+                                            <p class="news-title"><a href="#">Truy Cùng Giết Tận - Cuộc tái ngộ của hai 'ông hoàng phòng vé' xứ Hàn</a></p>
+                                            <p class="news-description">
+                                                Sau 7 năm kể từ New World – bộ phim đạt thành tích hơn 4.68 triệu vé, hai tên tuổi lão làng trong làng điện ảnh Hàn Quốc mới tiếp tục tái hợp trong Truy Cùng Giết Tận – một bộ phim hành động siêu
+                                                “nặng đô”.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="social">
+                                        <div class="social-icon social__like">
+                                            <img src="./images/icons/like.png" />
+                                            <span>0</span>
+                                        </div>
+                                        <div class="social-icon socail__comments">
+                                                <img src="./images/icons/comment.png" />
+                                                <span>0</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-sm-4">
+                                    <div class="hotnews__item">
+                                        <div class="hotnews__item__img">
+                                            <a href="#"><img src="./images/news/6-da-o-die-n-ti-do-lam-nen-thanh-cong-cua-nhu-ng-bom-ta-n-di-nh-da-m-nha-t-hollywood-15966023653637.jpg" /> </a>
+                                        </div>
+                                        <div class="hotnews__item__content">
+                                            <p class="news-title"><a href="#">6 đạo diễn tỉ đô làm nên thành công của những bom tấn đình đám nhất Hollywood</a></p>
+                                            <p class="news-description">Hollywood luôn yêu thích những dự án điện ảnh với tiềm năng trở thành bom tấn. Trên con đường đó, đạo diễn là một trong những vị trí quan trọng nhất</p>
+                                        </div>
+                                    </div>
+                                    <div class="social">
+                                        <div class="social-icon social__like">
+                                            <img src="./images/icons/like.png" />
+                                            <span>0</span>
+                                        </div>
+                                        <div class="social-icon socail__comments">
+                                                <img src="./images/icons/comment.png" />
+                                                <span>0</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-4">
+                                    <div class="hotnews__item">
+                                        <div class="hotnews__item__img">
+                                            <a href="#"><img src="./images/news/gai-gia-lam-chieu-v-nhung-cuoc-doi-vuong-gia-15965999467501.jpg" /> </a>
+                                        </div>
+                                        <div class="hotnews__item__content">
+                                            <p class="news-title"><a href="#">Gái Già Lắm Chiêu V – Những cuộc đời vương giả</a></p>
+                                            <p class="news-description">Bộ phim qui tụ dàn diễn viên nổi tiếng nhiều thế hệ từ Bắc tới Nam, trong đó NSND Lê Khanh, NSND Hồng Vân sẽ tái hợp và đóng cùng nữ diễn viên trẻ</p>
+                                        </div>
+                                    </div>
+                                    <div class="social">
+                                        <div class="social-icon social__like">
+                                            <img src="./images/icons/like.png" />
+                                            <span>0</span>
+                                        </div>
+                                        <div class="social-icon socail__comments">
+                                                <img src="./images/icons/comment.png" />
+                                                <span>0</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-4">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="hotnews__item hotnews__item__list">
+                                                <div class="hotnews__item__img">
+                                                    <a href="#"><img src="./images/news/kaity-nguyen-tro-thanh-my-nhan-moi-cua-vu-tru-gai-gia-lam-chieu-15959988694730.jpg" /> </a>
+                                                </div>
+                                                <div class="hotnews__item__content">
+                                                    <p clas="news-title"><a href="#">Kaity Nguyễn trở thành mỹ nhân mới của vũ trụ Gái Già Lắm Chiêu</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="hotnews__item hotnews__item__list">
+                                                <div class="hotnews__item__img">
+                                                    <a href="#"><img src="./images/news/5-ly-do-khien-ban-khong-the-bo-qua-bo-phim-cau-be-nguoi-go-pinocchio-15959331601790.jpg" /> </a>
+                                                </div>
+                                                <div class="hotnews__item__content">
+                                                    <p clas="news-title"><a href="#">5 lý do khiến bạn không thể bỏ qua bộ phim Cậu Bé Người Gỗ Pinocchio</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="hotnews__item hotnews__item__list">
+                                                <div class="hotnews__item__img">
+                                                    <a href="#"><img src="./images/news/tenet-cong-bo-ngay-khoi-chieu-chinh-thuc-tai-viet-nam-15959320275248.jpg" /> </a>
+                                                </div>
+                                                <div class="hotnews__item__content">
+                                                    <p clas="news-title"><a href="#">TENET công bố ngày khởi chiếu chính thức tại Việt Nam</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="hotnews__item hotnews__item__list">
+                                                <div class="hotnews__item__img">
+                                                    <a href="#"><img src="./images/news/khi-phu-nu-khong-con-o-the-tron-chay-cua-nan-nhan-15943684395106.jpg" /> </a>
+                                                </div>
+                                                <div class="hotnews__item__content">
+                                                    <p clas="news-title"><a href="#">Khi phụ nữ không còn ở thế trốn chạy của nạn nhân</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hotnews__viewmore"><button class="btn-default">XEM THÊM</button></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="review" role="tabpanel" aria-labelledby="review-tab">
+                    <div class="container">
+                        <div class="hotnews__content">
+                            <div class="row">
+                                <div class="col-12 col-sm-6">
+                                    <div class="hotnews__item">
+                                        <div class="hotnews__item__img">
+                                            <a href="#"><img src="./images/news/review-tan-tich-quy-am-relic-ba-the-he-va-moi-lien-ket-15965255784224.jpg" /> </a>
+                                        </div>
+                                        <div class="hotnews__item__content">
+                                            <p class="news-title"><a href="#">Review: Tàn Tích Quỷ Ám (Relic) - Ba thế hệ và mối liên kết</a></p>
+                                            <p class="news-description">Điểm nhấn của phim kinh dị năm 2020 chính là Tàn Tích Quỷ Ám</p>
+                                        </div>
+                                        <div class="social">
+                                            <div class="social-icon social__like">
+                                                <img src="./images/icons/like.png" />
+                                                <span>0</span>
+                                            </div>
+                                            <div class="social-icon socail__comments">
+                                                    <img src="./images/icons/comment.png" />
+                                                    <span>0</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="hotnews__item">
+                                        <div class="hotnews__item__img">
+                                            <a href="#"><img src="./images/news/review-dinh-thu-oan-khuat-ghost-of-war-15965120886610.jpg" /> </a>
+                                        </div>
+                                        <div class="hotnews__item__content">
+                                            <p class="news-title"><a href="#">Review: Dinh Thự Oan Khuất (Ghost Of War)</a></p>
+                                            <p class="news-description">Tuy là một bộ phim có chất lượng tốt, nhưng có vẻ Dinh Thự Oan Khuất vẫn chưa đủ để đem khán giả trở lại phòng vé!</p>
+                                        </div>
+                                    </div>
+                                    <div class="social">
+                                        <div class="social-icon social__like">
+                                            <img src="./images/icons/like.png" />
+                                            <span>0</span>
+                                        </div>
+                                        <div class="social-icon socail__comments">
+                                                <img src="./images/icons/comment.png" />
+                                                <span>0</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-sm-4">
+                                    <div class="hotnews__item">
+                                        <div class="hotnews__item__img">
+                                            <a href="#"><img src="./images/news/blackkklansman-coc-nuoc-lanh-de-nguoi-my-thuc-tinh-15910862294165.jpg" /> </a>
+                                        </div>
+                                        <div class="hotnews__item__content">
+                                            <p class="news-title"><a href="#">‘BlacKkKlansman’ - cốc nước lạnh để người Mỹ thức tỉnh</a></p>
+                                            <p class="news-description">
+                                                Tác phẩm nhận đề cử Phim truyện xuất sắc tại Oscar 2019 của đạo diễn Spike Lee là một lát cắt nữa về nạn phân biệt chủng tộc - nỗi đau gây nhức nhối nước Mỹ cho tới tận hôm nay.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="social">
+                                        <div class="social-icon social__like">
+                                            <img src="./images/icons/like.png" />
+                                            <span>0</span>
+                                        </div>
+                                        <div class="social-icon socail__comments">
+                                                <img src="./images/icons/comment.png" />
+                                                <span>0</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-4">
+                                    <div class="hotnews__item">
+                                        <div class="hotnews__item__img">
+                                            <a href="#"><img src="./images/news/american-sniper-chinh-nghia-hay-phi-nghia-15905660338111.jpg" /> </a>
+                                        </div>
+                                        <div class="hotnews__item__content">
+                                            <p class="news-title"><a href="#">American Sniper - Chính nghĩa hay phi nghĩa?</a></p>
+                                            <p class="news-description">
+                                                American Sniper khắc họa một tay súng bắn tỉa “huyền thoại” của Hải quân Mỹ với 4 lần tham chiến ở Trung Đông. Câu chuyện phim chậm rãi đưa người xem qua từng thời khắc khác nhau của Kyle, từ thửa
+                                                nhỏ, thiếu niên, rồi gia nhập quân đội, rồi tham chiến. Từng khoảnh khắc bắt đầu nhẹ nhàng...
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="social">
+                                        <div class="social-icon social__like">
+                                            <img src="./images/icons/like.png" />
+                                            <span>0</span>
+                                        </div>
+                                        <div class="social-icon socail__comments">
+                                                <img src="./images/icons/comment.png" />
+                                                <span>0</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-4">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="hotnews__item hotnews__item__list">
+                                                <div class="hotnews__item__img">
+                                                    <a href="#"><img src="./images/news/review-spider-man-into-the-spider-vesre-15886520889426.jpg" /> </a>
+                                                </div>
+                                                <div class="hotnews__item__content">
+                                                    <p clas="news-title"><a href="#">Review: Spider-Man: Into The Spider-Vesre</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="hotnews__item hotnews__item__list">
+                                                <div class="hotnews__item__img">
+                                                    <a href="#"><img src="./images/news/covid-19-la-ban-chinh-thuc-cua-mev-1-phim-contagion-2011-15843496198482.jpg" /> </a>
+                                                </div>
+                                                <div class="hotnews__item__content">
+                                                    <p clas="news-title"><a href="#">COVID-19 là bản chính thức của MEV-1 phim contagion (2011)</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="hotnews__item hotnews__item__list">
+                                                <div class="hotnews__item__img">
+                                                    <a href="#"><img src="./images/news/review-sieu-ve-si-so-vo-giai-cuu-tong-thong-chua-bao-gio-lay-loi-va-hai-huoc-den-the-15840925506832.jpg" /> </a>
+                                                </div>
+                                                <div class="hotnews__item__content">
+                                                    <p clas="news-title"><a href="#">[Review] Siêu Vệ Sĩ Sợ Vợ - Giải cứu Tổng thống chưa bao giờ lầy lội và hài hước đến thế</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="hotnews__item hotnews__item__list">
+                                                <div class="hotnews__item__img">
+                                                    <a href="#"><img src="./images/news/review-bloodshot-mo-man-an-tuong-cho-vu-tru-sieu-anh-hung-valiant-15840731141389.jpg" /> </a>
+                                                </div>
+                                                <div class="hotnews__item__content">
+                                                    <p clas="news-title"><a href="#">[Review] Bloodshot - Mở màn ấn tượng cho Vũ trụ Siêu anh hùng Valiant</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hotnews__viewmore"><button class="btn-default">XEM THÊM</button></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="khuyen-mai" role="tabpanel" aria-labelledby="khuyen-mai-tab">
+                    <div class="container">
+                        <div class="hotnews__content">
+                            <div class="row">
+                                <div class="col-12 col-sm-6">
+                                    <div class="hotnews__item">
+                                        <div class="hotnews__item__img">
+                                            <a href="#"><img src="./images/news/mua-1-tang-1-khi-mua-2-ve-phim-bang-chung-vo-hinh-15966229055232.jpg" /> </a>
+                                        </div>
+                                        <div class="hotnews__item__content">
+                                            <p class="news-title"><a href="#">GIẢM 50% KHI MUA 2 VÉ</a></p>
+                                            <p class="news-description">Ưu đãi khủng cho lần đầu thanh toán qua ZaloPay. Chọn phim hay, đặt vé ngay!</p>
+                                        </div>
+                                        <div class="social">
+                                            <div class="social-icon social__like">
+                                                <img src="./images/icons/like.png" />
+                                                <span>0</span>
+                                            </div>
+                                            <div class="social-icon socail__comments">
+                                                    <img src="./images/icons/comment.png" />
+                                                    <span>0</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="hotnews__item">
+                                        <div class="hotnews__item__img">
+                                            <a href="#"><img src="./images/news/cgv-ve-chi-79-000d-ca-tuan-15966247870091.jpg" /> </a>
+                                        </div>
+                                        <div class="hotnews__item__content">
+                                            <p class="news-title"><a href="#">CGV VÉ CHỈ 79.000Đ CẢ TUẦN!</a></p>
+                                            <p class="news-description">Tận hưởng Ưu Đãi lên đến 3 VÉ CGV mỗi tuần chỉ với GIÁ 79.000Đ/VÉ khi trên TIX và thanh toán bằng ZaloPay.</p>
+                                        </div>
+                                    </div>
+                                    <div class="social">
+                                        <div class="social-icon social__like">
+                                            <img src="./images/icons/like.png" />
+                                            <span>0</span>
+                                        </div>
+                                        <div class="social-icon socail__comments">
+                                                <img src="./images/icons/comment.png" />
+                                                <span>0</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-sm-4">
+                                    <div class="hotnews__item">
+                                        <div class="hotnews__item__img">
+                                            <a href="#"><img src="./images/news/bhd-star-ve-chi-59-000d-ca-tuan-15937622264546.jpg" /> </a>
+                                        </div>
+                                        <div class="hotnews__item__content">
+                                            <p class="news-title"><a href="#">BHD STAR VÉ CHỈ 59.000Đ CẢ TUẦN!</a></p>
+                                            <p class="news-description">Tận hưởng Ưu Đãi lên đến 3 VÉ BHD Star mỗi tuần chỉ với giá 59k/vé khi mua vé trên TIX và thanh toán bằng ZaloPay hoặc Mục Vé Phim trên ZaloPay.</p>
+                                        </div>
+                                    </div>
+                                    <div class="social">
+                                        <div class="social-icon social__like">
+                                            <img src="./images/icons/like.png" />
+                                            <span>0</span>
+                                        </div>
+                                        <div class="social-icon socail__comments">
+                                                <img src="./images/icons/comment.png" />
+                                                <span>0</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-4">
+                                    <div class="hotnews__item">
+                                        <div class="hotnews__item__img">
+                                            <a href="#"><img src="./images/news/beta-cineplex-tro-lai-voi-hang-loat-uu-dai-lon-15889409277632.jpg" /> </a>
+                                        </div>
+                                        <div class="hotnews__item__content">
+                                            <p class="news-title"><a href="#">Beta Cineplex trở lại với hàng loạt ưu đãi lớn</a></p>
+                                            <p class="news-description">Từ thứ 7 tuần này (9/5), toàn bộ các rạp Beta Cinemas trên toàn quốc sẽ mở cửa trở lại. Mừng ngày trở lại, hàng loạt khuyến mại KHỦNG đổ bộ</p>
+                                        </div>
+                                    </div>
+                                    <div class="social">
+                                        <div class="social-icon social__like">
+                                            <img src="./images/icons/like.png" />
+                                            <span>0</span>
+                                        </div>
+                                        <div class="social-icon socail__comments">
+                                                <img src="./images/icons/comment.png" />
+                                                <span>0</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-4">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="hotnews__item hotnews__item__list">
+                                                <div class="hotnews__item__img">
+                                                    <a href="#"><img src="./images/news/123phim-thu-6-khong-den-toi-uu-dai-huy-diet-11k-ve-anh-trai-yeu-quai-15746757294099.jpg" /> </a>
+                                                </div>
+                                                <div class="hotnews__item__content">
+                                                    <p clas="news-title"><a href="#">[123Phim] Thứ 6 Không Đen Tối - Ưu đãi huỷ diệt 11k/vé Anh Trai Yêu Quái</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="hotnews__item hotnews__item__list">
+                                                <div class="hotnews__item__img">
+                                                    <a href="#"><img src="./images/news/123phim-nhap-ma-psm30k-giam-ngay-30k-khi-dat-ve-phap-su-mu-ai-chet-gio-tay-15729439018211.jpg" /> </a>
+                                                </div>
+                                                <div class="hotnews__item__content">
+                                                    <p clas="news-title"><a href="#">[123Phim] NHẬP MÃ 'PSM30K' - Giảm ngay 30k khi đặt vé Pháp Sư Mù: Ai Chết Giơ Tay</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="hotnews__item hotnews__item__list">
+                                                <div class="hotnews__item__img">
+                                                    <a href="#"><img src="./images/news/mega-gs-mot-doa-hoa-thay-ngan-loi-yeu-15713106082164.jpg" /> </a>
+                                                </div>
+                                                <div class="hotnews__item__content">
+                                                    <p clas="news-title"><a href="#">[Mega GS] Một đoá hoa thay ngàn lời yêu</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="hotnews__item hotnews__item__list">
+                                                <div class="hotnews__item__img">
+                                                    <a href="#"><img src="./images/news/123phim-nhap-ma-bkt-giam-ngay-20k-khi-dat-ve-bac-kim-thang-15712976629297.jpg" /> </a>
+                                                </div>
+                                                <div class="hotnews__item__content">
+                                                    <p clas="news-title"><a href="#">[123Phim] NHẬP MÃ 'BKT' - Giảm ngay 20k khi đặt vé Bắc Kim Thang</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hotnews__viewmore"><button class="btn-default">XEM THÊM</button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END HOT NEW -->
+
+
+        <!-- APP MOBILE -->
+        <section id="stapp">
+            <div class="container">
+                <div class="stapp">
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <div class="stapp__content">
+                                <p class="stapp__textlarge">Ứng dụng tiện lợi dành cho</p>
+                                <p class="stapp__textlarge">người yêu điện ảnh</p>
+                                <p class="stapp__textsmall">Không chỉ đặt vé, bạn còn có thể bình luận phim, chấm điểm
+                                    rạp và đổi quà hấp dẫn.</p>
+                                <button class="btn-default">App miễn phí - Tải về ngay!</button>
+                                <p>TIX có hai phiên bản
+                                    <a class="link-app" href="#">iOS
+                                    </a>
+                                    &
+                                    <a class="link-app" href="#">Android
+                                    </a>
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div id="stapp__slider">
+                                <div class="stapp__slider__bg"></div>
+                                <div class="stapp__slider owl-carousel owl-theme">
+                                    <div class="item">
+                                        <img src="./images/app-mobile/slide1.jpg">
+                                    </div>
+                                    <div class="item">
+                                        <img src="./images/app-mobile/slide2.jpg">
+                                    </div>
+                                    <div class="item">
+                                        <img src="./images/app-mobile/slide3.jpg">
+                                    </div>
+                                    <div class="item">
+                                        <img src="./images/app-mobile/slide4.jpg">
+                                    </div>
+                                    <div class="item">
+                                        <img src="./images/app-mobile/slide5.jpg">
+                                    </div>
+                                    <div class="item">
+                                        <img src="./images/app-mobile/slide6.jpg">
+                                    </div>   
+                                    <div class="item">
+                                        <img src="./images/app-mobile/slide7.jpg">
+                                    </div>  
+                                    <div class="item">
+                                        <img src="./images/app-mobile/slide8.jpg">
+                                    </div>  
+                                    <div class="item">
+                                        <img src="./images/app-mobile/slide9.jpg">
+                                    </div>  
+                                    <div class="item">
+                                        <img src="./images/app-mobile/slide10.jpg">
+                                    </div>  
+                                    <div class="item">
+                                        <img src="./images/app-mobile/slide11.jpg">
+                                    </div>  
+                                    <div class="item">
+                                        <img src="./images/app-mobile/slide12.jpg">
+                                    </div>  
+                                    <div class="item">
+                                        <img src="./images/app-mobile/slide13.jpg">
+                                    </div>  
+                                    <div class="item">
+                                        <img src="./images/app-mobile/slide14.jpg">
+                                    </div>  
+                                    <div class="item">
+                                        <img src="./images/app-mobile/slide15.jpg">
+                                    </div>
+                                    <div class="item">
+                                        <img src="./images/app-mobile/slide16.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </section>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="footer">
+                <div class="row">
+                    <div class="col-12 col-sm-3">
+                        <div class="footer__item">
+                            <div class="title">
+                                Tix
+                            </div>
+                            <ul class="footer__menu">
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Thỏa thuận sử dụng</a></li>
+                                <li><a href="#">Brand Guidelines</a></li>
+                                <li><a href="#">Chính sách bảo mật</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-3">
+                        <div class="footer__item">
+                            <div class="title">
+                                Đối tác
+                            </div>
+                            <ul class="footer__partner">
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-3">
+                        <div class="footer__item">
+                            <div class="title">
+                                Mobile app
+                            </div>
+                            <div class="content">
+                                <a class="footer__social" href="#"><img src="./images/icons/apple-logo.png" alt=""></a>
+                                <a class="footer__social" href="#"><img src="./images/icons/android-logo.png"
+                                        alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-3">
+                        <div class="footer__item">
+                            <div class="title">
+                                Social
+                            </div>
+                            <div class="content">
+                                <a class="footer__social" href="#"><img src="./images/icons/facebook-logo.png"
+                                        alt=""></a>
+                                <a class="footer__social" href="#"><img src="./images/icons/zalo-logo.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ft__site">
+                <div class="row">
+                    <div class="col-12 col-sm-1">
+                        <div class="ft__site__item image">
+                            <img src="./images/icons/zion-logo.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-9">
+                        <div class="ft__site__item">
+                            <div class="title">
+                                Tix – sản phẩm của công ty cổ phần zion
+                            </div>
+                            <div class="content">
+                                <p>Địa chỉ: Z06 Đường số 13, Phường Tân Thuận Đông, Quận 7, Tp. Hồ Chí Minh, Việt Nam.
+                                </p>
+                                <p>Giấy chứng nhận đăng ký kinh doanh số: 0101659783, <br />
+                                    đăng ký thay đổi lần thứ 30, ngày 22 tháng 01 năm 2020 do Sở kế hoạch và đầu tư
+                                    Thành phố Hồ Chí Minh cấp.</p>
+                                <p>Số Điện Thoại (Hotline): <a href="tel:1900 545 436">1900 545 436</a></p>
+                                <p>Email: <a href="mailto:support@tix.vn">support@tix.vn</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-2">
+                        <div class="ft__site__item image">
+                            <img src="./images/icons/d1e6bd560daa9e20131ea8a0f62e87f8.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/setting.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

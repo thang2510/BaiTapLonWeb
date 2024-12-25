@@ -1,0 +1,153 @@
+.sstimeout {
+    opacity: 0;
+    visibility: hidden;
+    @include flex-box(center, center);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(color('black'), 0.5);
+    @include bd-radius(5px);
+    @include transition-all;
+    z-index: 99999;
+    &__content {
+        background-color: color('white');
+        padding: spacing(4);
+        a {
+            color: color('primary');
+        }
+    }
+    &.active {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+.seatroom {
+    &__infor {
+        margin-top: spacing(4);
+        margin-bottom: spacing(2);
+    }
+
+    &__info {
+        display: flex;
+        align-items: center;
+
+        .image {
+            width: 50px;
+            margin-right: spacing(1);
+        }
+    }
+
+    &__count
+    {
+        &time {
+            font-size: $font-size-small;
+            text-align: right;
+            color: color('lightgray');
+        }
+        &down {
+            color: color('primary');
+            font-size: fsize(2);
+        }
+    }
+
+    &__pos {
+        display: flex;
+        flex-wrap: wrap;
+        &.jus-center {
+            justify-content: center;
+        }
+
+        &.jus-end {
+            justify-content: flex-end;
+        }
+        &__vip {
+            @include seatroom-type(color('yellow'));
+        }
+        &__deluxe {
+            .seatroom__pos__item {
+                &:first-child, &:last-child {
+                    display: none;
+                }
+                @include seatroom-type(color('blue'));
+            }
+        }
+
+        &__item {
+            position: relative;
+            min-width: 40px;
+            min-height: 40px;
+            line-height: 40px;
+            cursor: pointer;
+            i {
+                font-size: 25px;
+                color: color('primary');
+
+                &.border-square {
+                    position: relative;
+
+                    &::before {
+                        @include pos-absolute(8px, -5px, '');
+                        width: 31px;
+                        height: 22px;
+                        border: 3px solid color('primary');
+                        border-top: none;
+                        border-bottom-left-radius: 5px;
+                        border-bottom-right-radius: 5px;
+                    }
+                }
+            }
+            &.active {
+                i {
+                    color: color('green') !important;
+                    &.border-square {
+                        &::before {
+                            border-color: color('green') !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &__type {
+        @include flex-box(center);
+        margin: spacing(2,0);
+        &__item {
+            text-align: center;
+            margin-right: spacing(1.5);
+            color: color('lightgray');
+            min-width: 20px;
+            min-height: 20px;
+            line-height: 20px;
+            font-size: $font-size-small;
+            i {
+                font-size: $font-size-small;
+                &.border-square{
+                    &::before {
+                        top: 3px;
+                        left: -3px;
+                        width: 17px;
+                        height: 12px;
+                        border-width: 2px;
+                    }
+                }
+            }
+        }
+        &__vip {
+            @include seatroom-type(color('yellow'));
+        }
+        &__deluxe {
+            @include seatroom-type(color('blue'));
+        }
+        &__choose {
+            @include seatroom-type(color('green'));
+        }
+        &__haschoose {
+            @include seatroom-type(color('lightgray'));
+        }
+        &__notchoose {
+            @include seatroom-type(color('blackgray'));
+        }
+    }
+}
